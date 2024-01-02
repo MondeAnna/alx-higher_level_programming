@@ -39,5 +39,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Print Float Precision`](4-print_float.py)_
 * _[`Print with String duplication and Slicing`](5-print_string.py)_
 * _[`Concatenation`](6-concat.py)_
+* _[`String Slicing`](7-edges.py)_
 
 <br />
