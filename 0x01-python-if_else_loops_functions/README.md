@@ -50,5 +50,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Print Last Digit ... Again`](9-print_last_digit.py)_
 * _[`Add Function`](10-add.py)_
 * _[`Power Function`](11-pow.py)_
+* _[`FizzBuzz`](12-fizzbuzz.py)_
 
 <br />
