@@ -41,5 +41,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Concatenation`](6-concat.py)_
 * _[`String Slicing`](7-edges.py)_
 * _[`More String Slicing`](8-concat_edges.py)_
+* _[`import this`](9-easter_egg.py)_
 
 <br />
