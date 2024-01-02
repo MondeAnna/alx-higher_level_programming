@@ -37,5 +37,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Print to Shell with Python Script`](2-print.py)_
 * _[`Use f-string`](3-print_number.py)_
 * _[`Print Float Precision`](4-print_float.py)_
+* _[`Print with String duplication and Slicing`](5-print_string.py)_
 
 <br />
