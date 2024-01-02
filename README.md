@@ -91,3 +91,9 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
     * All your header files should be include guarded
 
 <br />
+
+#### High Level Programming Concepts
+
+* _[Python Code Interpretation](https://www.geeksforgeeks.org/what-is-python-interpreter/)_
+
+<br />
