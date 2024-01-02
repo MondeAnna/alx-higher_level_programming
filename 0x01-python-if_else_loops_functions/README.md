@@ -35,3 +35,9 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
     * What are the arithmetic operators and how to use them
 
 <br />
+
+#### High Level Programming Concepts
+
+* _[`Discern if Integer is Negative, Zero or Positive`](0-positive_or_negative.py)_
+
+<br />
