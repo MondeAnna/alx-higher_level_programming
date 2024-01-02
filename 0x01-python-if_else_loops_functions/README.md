@@ -41,5 +41,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Discern if Integer is Negative, Zero or Positive`](0-positive_or_negative.py)_
 * _[`Discern Last Digit`](1-last_digit.py)_
 * _[`Print Lowercased Alphabet`](2-print_alphabet.py)_
+* _[`Print Lowercased Alphabet II`](3-print_alphabt.py)_
 
 <br />
