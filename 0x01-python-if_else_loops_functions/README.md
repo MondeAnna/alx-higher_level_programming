@@ -42,5 +42,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Discern Last Digit`](1-last_digit.py)_
 * _[`Print Lowercased Alphabet`](2-print_alphabet.py)_
 * _[`Print Lowercased Alphabet II`](3-print_alphabt.py)_
+* _[`Print Ranged Hexidecimals`](4-print_hexa.py)_
 
 <br />
