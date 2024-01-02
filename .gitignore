@@ -1,0 +1,14 @@
+# everything
+*
+
+# except
+!.gitignore
+!*.c
+!*.h
+!*.md
+!*.py
+!tests
+!0x*
+
+# untracked: special
+*main.*
