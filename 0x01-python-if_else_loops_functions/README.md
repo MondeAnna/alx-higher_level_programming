@@ -46,5 +46,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Print Decimal Range`](5-print_comb2.py)_
 * _[`Print Range of Numbers`](6-print_comb3.py)_
 * _[`Discern if Char id Lowercase`](7-islower.py)_
+* _[`Convert to Uppercase`](8-uppercase.py)_
 
 <br />
