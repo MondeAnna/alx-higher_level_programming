@@ -47,5 +47,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Print Range of Numbers`](6-print_comb3.py)_
 * _[`Discern if Char id Lowercase`](7-islower.py)_
 * _[`Convert to Uppercase`](8-uppercase.py)_
+* _[`Print Last Digit ... Again`](9-print_last_digit.py)_
 
 <br />
