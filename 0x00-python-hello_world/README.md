@@ -40,5 +40,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Print with String duplication and Slicing`](5-print_string.py)_
 * _[`Concatenation`](6-concat.py)_
 * _[`String Slicing`](7-edges.py)_
+* _[`More String Slicing`](8-concat_edges.py)_
 
 <br />
