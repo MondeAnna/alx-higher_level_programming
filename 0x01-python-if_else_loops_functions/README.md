@@ -43,5 +43,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Print Lowercased Alphabet`](2-print_alphabet.py)_
 * _[`Print Lowercased Alphabet II`](3-print_alphabt.py)_
 * _[`Print Ranged Hexidecimals`](4-print_hexa.py)_
+* _[`Print Decimal Range`](5-print_comb2.py)_
 
 <br />
