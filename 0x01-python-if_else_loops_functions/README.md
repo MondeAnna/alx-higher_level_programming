@@ -49,5 +49,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Convert to Uppercase`](8-uppercase.py)_
 * _[`Print Last Digit ... Again`](9-print_last_digit.py)_
 * _[`Add Function`](10-add.py)_
+* _[`Power Function`](11-pow.py)_
 
 <br />
