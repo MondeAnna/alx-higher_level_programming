@@ -44,5 +44,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`import this`](9-easter_egg.py)_
 * _[`Checks Singly Linked List for a Cycle`](10-check_cycle.c)_
 * _[`Write to stderr`](100-write.py)_
+* _[`Compile Python Code`](101-compile.py)_
 
 <br />
