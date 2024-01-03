@@ -52,5 +52,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Power Function`](11-pow.py)_
 * _[`FizzBuzz`](12-fizzbuzz.py)_
 * _[`Insert Node in Ordered List`](13-insert_number.c)_
+* _[`Print Reversed String with Altered Casing`](100-print_tebahpla.py)_
 
 <br />
