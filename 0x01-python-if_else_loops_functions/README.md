@@ -51,5 +51,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Add Function`](10-add.py)_
 * _[`Power Function`](11-pow.py)_
 * _[`FizzBuzz`](12-fizzbuzz.py)_
+* _[`Insert Node in Ordered List`](13-insert_number.c)_
 
 <br />
