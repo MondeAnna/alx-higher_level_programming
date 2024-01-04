@@ -38,6 +38,7 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 #### High Level Programming Concepts
 
 
-* _[`Import add function`](0-add.py)_
+* _[`Import add Function`](0-add.py)_
+* _[`Import Multiple Functions`](1-calculation.py)_
 
 <br />
