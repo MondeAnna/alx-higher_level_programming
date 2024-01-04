@@ -45,5 +45,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Placeholder`](4-hidden_discovery.py)_
 * _[`Import Variable`](5-variable_load.py)_
 * _[`Read CLI Arguments III`](100-my_calculator.py)__
+* _[`Write to stdout`](101-easy_print.py)_
 
 <br />
