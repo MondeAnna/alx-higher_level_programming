@@ -42,5 +42,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Import Multiple Functions`](1-calculation.py)_
 * _[`Read CLI Arguments`](2-args.py)_
 * _[`Read CLI Arguments II`](3-infinite_add.py)_
+* _[`Placeholder`](4-hidden_discovery.py)_
 
 <br />
