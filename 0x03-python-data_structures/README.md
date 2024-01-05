@@ -46,5 +46,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Retrieve Element at Index n`](1-element_at.py)_
 * _[`Replace Element at Index n`](2-replace_in_list.py)_
 * _[`Print Integers in Reversed Order`](3-print_reversed_list_integer.py)_
+* _[`Create Duplicate List with Modified Element`](4-new_in_list.py)_
 
 <br />
