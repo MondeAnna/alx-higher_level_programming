@@ -97,5 +97,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[Python Code Interpretation](https://www.geeksforgeeks.org/what-is-python-interpreter/)_
 * _[Conditional Statements](https://www.geeksforgeeks.org/python-if-else/)_, _[Loops](https://www.geeksforgeeks.org/loops-in-python/)_ and _[Functions](https://www.geeksforgeeks.org/python-functions/)_
 * _[Modules](https://www.geeksforgeeks.org/python-modules/)_
+* _[Lists](https://www.geeksforgeeks.org/python-lists/)_ and _[Tuples](https://www.geeksforgeeks.org/python-tuples/)_
 
 <br />
