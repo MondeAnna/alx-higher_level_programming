@@ -50,5 +50,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Remove All Characters "c" and "C"`](5-no_c.py)_
 * _[`Print Matrix of Integers`](6-print_matrix_integer.py)_
 * _[`Add Two Tuples`](7-add_tuple.py)_
+* _[`Return Length of String and First Character`](8-multiple_returns.py)_
 
 <br />
