@@ -49,5 +49,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Create Duplicate List with Modified Element`](4-new_in_list.py)_
 * _[`Remove All Characters "c" and "C"`](5-no_c.py)_
 * _[`Print Matrix of Integers`](6-print_matrix_integer.py)_
+* _[`Add Two Tuples`](7-add_tuple.py)_
 
 <br />
