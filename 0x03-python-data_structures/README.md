@@ -43,5 +43,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 #### High Level Programming Concepts
 
 * _[`Print List of Integers`](0-print_list_integer.py)_
+* _[`Retrieve Element at Index n`](1-element_at.py)_
 
 <br />
