@@ -39,3 +39,9 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[Learn to Program 6 : Lists](https://www.youtube.com/watch?v=A1HUzrvS-Pw)_
 
 <br />
+
+#### High Level Programming Concepts
+
+* _[`Print List of Integers`](0-print_list_integer.py)_
+
+<br />
