@@ -53,5 +53,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Return Length of String and First Character`](8-multiple_returns.py)_
 * _[`Find Max Value in List`](9-max_integer.py)_
 * _[`Find Multiples of Two in a List`](10-divisible_by_2.py)_
+* _[`Delete Element from List`](11-delete_at.py)_
 
 <br />
