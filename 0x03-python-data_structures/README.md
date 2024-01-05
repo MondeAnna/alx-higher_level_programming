@@ -47,5 +47,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Replace Element at Index n`](2-replace_in_list.py)_
 * _[`Print Integers in Reversed Order`](3-print_reversed_list_integer.py)_
 * _[`Create Duplicate List with Modified Element`](4-new_in_list.py)_
+* _[`Remove All Characters "c" and "C"`](5-no_c.py)_
 
 <br />
