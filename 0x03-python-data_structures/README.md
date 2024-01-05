@@ -54,5 +54,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Find Max Value in List`](9-max_integer.py)_
 * _[`Find Multiples of Two in a List`](10-divisible_by_2.py)_
 * _[`Delete Element from List`](11-delete_at.py)_
+* _[`Swap Values`](12-switch.py)_
 
 <br />
