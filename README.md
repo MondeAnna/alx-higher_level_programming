@@ -98,5 +98,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[Conditional Statements](https://www.geeksforgeeks.org/python-if-else/)_, _[Loops](https://www.geeksforgeeks.org/loops-in-python/)_ and _[Functions](https://www.geeksforgeeks.org/python-functions/)_
 * _[Modules](https://www.geeksforgeeks.org/python-modules/)_
 * _[Lists](https://www.geeksforgeeks.org/python-lists/)_ and _[Tuples](https://www.geeksforgeeks.org/python-tuples/)_
+* _[Sets](https://www.geeksforgeeks.org/python-sets/)_ and _[Dictionaries](https://www.geeksforgeeks.org/python-dictionary/)_
 
 <br />
