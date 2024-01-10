@@ -54,5 +54,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Get Key to Maximum Value in Dictionary`](10-best_score.py)_
 * _[`Map Multiplicative Function to List`](11-multiply_list_map.py)_
 * _[`Weighted Averaging`](100-weight_average.py)_
+* _[`Square Matrix Elements`](101-square_matrix_map.py)_
 
 <br />
