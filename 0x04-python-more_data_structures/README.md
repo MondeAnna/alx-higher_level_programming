@@ -52,5 +52,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Delete Dictionary Key-Value Pair`](8-simple_delete.py)_
 * _[`Augmemt Value in Altered Dictionary`](9-multiply_by_2.py)_
 * _[`Get Key to Maximum Value in Dictionary`](10-best_score.py)_
+* _[`Map Multiplicative Function to List`](11-multiply_list_map.py)_
 
 <br />
