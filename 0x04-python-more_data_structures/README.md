@@ -38,3 +38,9 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[Learn to Program 12 Lambda Map Filter Reduce](https://www.youtube.com/watch?v=1GAC6KQUPeg)_
 
 <br />
+
+#### High Level Programming Concepts
+
+* _[`Square Integers in Matrix`](0-square_matrix_simple.py)_
+
+<br />
