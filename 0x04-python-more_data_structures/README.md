@@ -47,5 +47,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Provide Common Elements Between Sets`](3-common_elements.py)_
 * _[`Provide Common Differences Between Sets`](4-only_diff_elements.py)_
 * _[`Provide Size of Dictionary`](5-number_keys.py)_
+* _[`Ordered Printing of Dictionary Items`](6-print_sorted_dictionary.py)_
 
 <br />
