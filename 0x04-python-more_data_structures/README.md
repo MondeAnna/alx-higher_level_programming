@@ -42,5 +42,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 #### High Level Programming Concepts
 
 * _[`Square Integers in Matrix`](0-square_matrix_simple.py)_
+* _[`Replace List Elements`](1-search_replace.py)_
 
 <br />
