@@ -49,5 +49,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Provide Size of Dictionary`](5-number_keys.py)_
 * _[`Ordered Printing of Dictionary Items`](6-print_sorted_dictionary.py)_
 * _[`Update Dictionary`](7-update_dictionary.py)_
+* _[`Delete Dictionary Key-Value Pair`](8-simple_delete.py)_
 
 <br />
