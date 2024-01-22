@@ -39,5 +39,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 
 * _[`Print x Elements in List`](0-safe_print_list.py)_
 * _[`Print Integers with str.format`](1-safe_print_integer.py)_
+* _[`Print First x Integer Elements in List`](2-safe_print_list_integers.py)_
 
 <br />
