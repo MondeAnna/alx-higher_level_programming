@@ -44,5 +44,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Divide Element by Element Two Lists`](4-list_division.py)_
 * _[`Function That Raises a Type Exception`](5-raise_exception.py)_
 * _[`Function That Raises a Messaged Naming Exception`](6-raise_exception_msg.py)_
+* _[`Print an Interger`](100-safe_print_integer_err.py)_
 
 <br />
