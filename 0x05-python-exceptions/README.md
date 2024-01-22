@@ -45,5 +45,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Function That Raises a Type Exception`](5-raise_exception.py)_
 * _[`Function That Raises a Messaged Naming Exception`](6-raise_exception_msg.py)_
 * _[`Print an Interger`](100-safe_print_integer_err.py)_
+* _[`Function that Executes a Function Safely`](101-safe_function.py)_
 
 <br />
