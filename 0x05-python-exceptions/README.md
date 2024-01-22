@@ -41,5 +41,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Print Integers with str.format`](1-safe_print_integer.py)_
 * _[`Print First x Integer Elements in List`](2-safe_print_list_integers.py)_
 * _[`Divide Two Integers and Print Result`](3-safe_print_division.py)_
+* _[`Divide Element by Element Two Lists`](4-list_division.py)_
 
 <br />
