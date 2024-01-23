@@ -64,5 +64,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Square Class That Prints Square`](5-square.py)_
 * _[`Square Class That Prints Square with Spaces`](6-square.py)_
 * _[`Define Node of Singly Linked List`](100-singly_linked_list.py)_
+* _[`Add Comparators`](102-square.py)_
 
 <br />
