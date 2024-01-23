@@ -60,5 +60,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Class Defining a Square`](1-square.py)_
 * _[`Square Class Validating Size`](2-square.py)_
 * _[`Square Class Providing Area`](3-square.py)_
+* _[`Square Class With Setters and Getters for Size`](4-square.py)_
 
 <br />
