@@ -59,5 +59,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Empty Class that Defines a Square`](0-square.py)_
 * _[`Class Defining a Square`](1-square.py)_
 * _[`Square Class Validating Size`](2-square.py)_
+* _[`Square Class Providing Area`](3-square.py)_
 
 <br />
