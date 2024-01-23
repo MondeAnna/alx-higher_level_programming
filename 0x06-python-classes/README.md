@@ -56,4 +56,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 
 #### High Level Programming Concepts
 
+* _[`Empty Class that Defines a Square`](0-square.py)_
+
 <br />
