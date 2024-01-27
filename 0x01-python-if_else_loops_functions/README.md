@@ -39,5 +39,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 #### High Level Programming Concepts
 
 * _[`Discern if Integer is Negative, Zero or Positive`](0-positive_or_negative.py)_
+* _[`Discern Last Digit`](1-last_digit.py)_
 
 <br />
