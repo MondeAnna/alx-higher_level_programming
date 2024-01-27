@@ -95,5 +95,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 #### High Level Programming Concepts
 
 * _[Python Code Interpretation](https://www.geeksforgeeks.org/what-is-python-interpreter/)_
+* _[Conditional Statements](https://www.geeksforgeeks.org/python-if-else/)_, _[Loops](https://www.geeksforgeeks.org/loops-in-python/)_ and _[Functions](https://www.geeksforgeeks.org/python-functions/)_
 
 <br />
