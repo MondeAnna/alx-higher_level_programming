@@ -29,3 +29,9 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
     * What is the official Python coding style and how to check your code with pycodestyle
 
 <br />
+
+#### High Level Programming Concepts
+
+* _[`Execute Python Script`](0-run)_
+
+<br />
