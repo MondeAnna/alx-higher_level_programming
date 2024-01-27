@@ -1,14 +1,14 @@
-# everything
-*
+# nano temp files
+*.swp
 
-# except
-!.gitignore
-!*.c
-!*.h
-!*.md
-!*.py
-!tests
-!0x*
-
-# untracked: special
+# main files
 *main.*
+
+# virtual env
+*.venv
+
+# python backend
+*__pycache__
+
+# sandbox
+*sandbox."
