@@ -33,5 +33,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 #### High Level Programming Concepts
 
 * _[`Execute Python Script`](0-run)_
+* _[`Execute Command in Shell`](1-run_inline)_
 
 <br />
