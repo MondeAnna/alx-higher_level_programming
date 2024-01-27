@@ -96,6 +96,15 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 
 <br />
 
+#### Notice on the checking of Python projects
+
+* Based on the requirements of each task, **you should always write the documentation (module(s) + function(s)) and tests first**, before you actually code anything
+* The intranet checks for Python projects won't be released before their first deadline, in order for you to focus more on TDD and think about all possible cases
+* We strongly encourage you to work together on test cases, so that you don't miss any edge case. **But not in the implementation of them!**
+* **Don't trust the user**, always think about all possible edge cases
+
+<br />
+
 #### High Level Programming Concepts
 
 * _[Python Code Interpretation](https://www.geeksforgeeks.org/what-is-python-interpreter/)_
@@ -104,5 +113,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[Lists](https://www.geeksforgeeks.org/python-lists/)_ and _[Tuples](https://www.geeksforgeeks.org/python-tuples/)_
 * _[Sets](https://www.geeksforgeeks.org/python-sets/)_ and _[Dictionaries](https://www.geeksforgeeks.org/python-dictionary/)_
 * _[Exceptions](https://www.geeksforgeeks.org/errors-and-exceptions-in-python/)_
+* _[Test Driven Development](https://www.geeksforgeeks.org/test-driven-development-tdd/)_
 
 <br />
