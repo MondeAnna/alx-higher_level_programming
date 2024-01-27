@@ -44,5 +44,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 
 * _[`Print List of Integers`](0-print_list_integer.py)_
 * _[`Retrieve Element at Index n`](1-element_at.py)_
+* _[`Replace Element at Index n`](2-replace_in_list.py)_
 
 <br />
