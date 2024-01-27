@@ -34,3 +34,9 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[Learn to Program 11 Static & Exception Handling](https://www.youtube.com/watch?v=7vbgD-3s-w4)_
 
 <br />
+
+#### High Level Programming Concepts
+
+* _[`Print x Elements in List`](0-safe_print_list.py)_
+
+<br />
