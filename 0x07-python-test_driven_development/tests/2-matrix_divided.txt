@@ -1,0 +1,59 @@
+>>> matrix_divided = __import__("2-matrix_divided").matrix_divided
+>>>
+>>>
+>>> erroneous_matrix_types = [None, str, dict, int, float, tuple, set, hex, bin, oct, bool]
+>>> erroneous_element_types = [None, str, dict, list, tuple, set, hex, bin, oct, bool]
+>>>
+>>> matrix_erroneous = [erroneous_element_types]
+>>> matrix_diff_row_size = [[1], [2, 3], [4, 5, 6]]
+>>> matrix_one_row = [[1, 2, 3, 4, 5]]
+>>> matrix_n_rows = [[1, 2, 3], [4, 5, 6]]
+>>> matrix_empty = []
+>>>
+>>>
+>>> div_zero = 0
+>>> div_positive = 3
+>>> div_negative = -17
+>>>
+>>>
+>>> matrix_divided(erroneous_matrix_types, 1)
+Traceback (most recent call last):
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+>>>
+>>>
+>>> matrix_divided(matrix_erroneous, 1)
+Traceback (most recent call last):
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+>>>
+>>>
+>>> matrix_divided(matrix_diff_row_size, 1)
+Traceback (most recent call last):
+TypeError: Each row of the matrix must have the same size
+>>>
+>>>
+>>> for element in erroneous_element_types[:1]:
+...     matrix_divided(matrix_one_row, element)
+Traceback (most recent call last):
+TypeError: div must be a number
+>>>
+>>>
+>>> matrix_divided(matrix_one_row, div_zero)
+Traceback (most recent call last):
+ZeroDivisionError: division by zero
+>>>
+>>>
+>>> result = matrix_divided(matrix_empty, 1)
+>>> result
+[]
+>>>
+>>>
+>>> id(result) is not id(matrix_empty)
+True
+>>>
+>>>
+>>> matrix_divided(matrix_n_rows, div_negative)
+[[-0.06, -0.12, -0.18], [-0.24, -0.29, -0.35]]
+>>> matrix_n_rows
+[[1, 2, 3], [4, 5, 6]]
+>>>
+>>>
