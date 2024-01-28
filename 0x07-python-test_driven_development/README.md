@@ -46,5 +46,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Text Indentation`](5-text_indentation.py)_
 * _[`Unit Testing`](tests/6-max_integer_test.py)_
 * _[`Matrix Multiplication`](100-matrix_mul.py)_
+* _[`Lazy Matrix Multiplication`](101-lazy_matrix_mul.py)_
 
 <br />

@@ -1,0 +1,80 @@
+>>> lazy_matrix_mul = __import__("101-lazy_matrix_mul").lazy_matrix_mul
+>>>
+>>> erroneous_matrix_types = [None, str, dict, int, float, tuple, set, hex, bin, oct, bool]
+>>> erroneous_element_types = [None, str, dict, list, tuple, set, hex, bin, oct, bool]
+>>>
+>>>
+>>> for type_ in erroneous_matrix_types:
+...     lazy_matrix_mul(type_, [])
+Traceback (most recent call last):
+TypeError: m_a must be a list
+>>>
+>>>
+>>> for type_ in erroneous_matrix_types:
+...     lazy_matrix_mul([], type_)
+Traceback (most recent call last):
+TypeError: m_b must be a list
+>>>
+>>>
+>>> for type_ in erroneous_matrix_types:
+...     lazy_matrix_mul([type_], [[]])
+Traceback (most recent call last):
+TypeError: m_a must be a list of lists
+>>>
+>>>
+>>>
+>>> for type_ in erroneous_matrix_types:
+...     lazy_matrix_mul([[]], [type_])
+Traceback (most recent call last):
+TypeError: m_b must be a list of lists
+>>>
+>>>
+>>> matrix_erroneous_elements = [erroneous_element_types]
+>>> matrix_diff_row_size = [[1], [2, 3], [4, 5, 6]]
+>>> matrix_2_by_4 = [[1, 2, 3, 4], [0, 2, -1, 6]]
+>>> matrix_2_by_2 = [[4, 2], [1, 3]]
+>>> matrix_empty_row = [[]]
+>>> matrix_empty = []
+>>>
+>>>
+>>> lazy_matrix_mul(matrix_empty, matrix_2_by_2)
+Traceback (most recent call last):
+ValueError: m_a can't be empty
+>>>
+>>>
+>>> lazy_matrix_mul(matrix_2_by_4, matrix_empty_row)
+Traceback (most recent call last):
+ValueError: m_b can't be empty
+>>>
+>>>
+>>> lazy_matrix_mul(matrix_erroneous_elements, matrix_2_by_2)
+Traceback (most recent call last):
+TypeError: m_a should contain only integers or floats
+>>>
+>>>
+>>> lazy_matrix_mul(matrix_2_by_4, matrix_erroneous_elements)
+Traceback (most recent call last):
+TypeError: m_b should contain only integers or floats
+>>>
+>>>
+>>> lazy_matrix_mul(matrix_diff_row_size, matrix_2_by_4)
+Traceback (most recent call last):
+TypeError: each row of m_a must be of the same size
+>>>
+>>>
+>>> lazy_matrix_mul(matrix_2_by_2, matrix_diff_row_size)
+Traceback (most recent call last):
+TypeError: each row of m_b must be of the same size
+>>>
+>>>
+>>> lazy_matrix_mul(matrix_2_by_4, matrix_2_by_2)
+Traceback (most recent call last):
+ValueError: m_a and m_b can't be multiplied
+>>>
+>>>
+>>> lazy_matrix_mul([[1, 2, 3, 4]], [[1], [2], [3], [4]])
+array([[30]])
+>>> lazy_matrix_mul([[1, 3], [5, 3]], [[3, -2], [-1, 6]])
+array([[ 0, 16],
+       [12,  8]])
+>>>
