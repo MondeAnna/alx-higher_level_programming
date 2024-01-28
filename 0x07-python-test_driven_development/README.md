@@ -44,5 +44,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Say My Name`](3-say_my_name.py)_
 * _[`Print Square`](4-print_square.py)_
 * _[`Text Indentation`](5-text_indentation.py)_
+* _[`Unit Testing`](tests/6-max_integer_test.py)_
 
 <br />
