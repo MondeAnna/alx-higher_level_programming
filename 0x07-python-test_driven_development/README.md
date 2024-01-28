@@ -45,5 +45,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Print Square`](4-print_square.py)_
 * _[`Text Indentation`](5-text_indentation.py)_
 * _[`Unit Testing`](tests/6-max_integer_test.py)_
+* _[`Matrix Multiplication`](100-matrix_mul.py)_
 
 <br />
