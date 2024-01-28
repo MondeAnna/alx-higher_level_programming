@@ -1,0 +1,32 @@
+>>> say_my_name = __import__("3-say_my_name").say_my_name
+>>>
+>>>
+>>> erroneous_types = [None, int, float, dict, list, tuple, set, hex, bin, oct, bool]
+>>>
+>>>
+>>> for type_ in erroneous_types:
+...     say_my_name(type_)
+Traceback (most recent call last):
+TypeError: first_name must be a string
+>>>
+>>>
+>>> for type_ in erroneous_types:
+...     say_my_name("", type_)
+Traceback (most recent call last):
+TypeError: last_name must be a string
+>>>
+>>>
+>>> say_my_name("Amanda", "Bavu")
+My name is Amanda Bavu
+>>>
+>>>
+>>> # the trailing white space is meant to be a feature
+>>> say_my_name("May")
+My name is May 
+>>>
+>>>
+>>> # the trailing white space is meant to be a feature
+>>> say_my_name("")  #doctest: +REPORT_NDIFF
+My name is  
+>>>
+>>>
