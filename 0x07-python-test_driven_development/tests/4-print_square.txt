@@ -1,0 +1,26 @@
+>>> print_square = __import__("4-print_square").print_square
+>>>
+>>>
+>>> erroneous_types = [None, list, dict, list, tuple, set, hex, bin, oct, bool]
+>>>
+>>>
+>>> for type_ in erroneous_types:
+...     print_square(type_)
+Traceback (most recent call last):
+TypeError: size must be an integer
+>>>
+>>>
+>>> negative_int = -1
+>>>
+>>>
+>>> print_square(negative_int)
+Traceback (most recent call last):
+TypeError: size must be >= 0
+>>>
+>>>
+>>> print_square(4) 
+####
+####
+####
+####
+>>>
