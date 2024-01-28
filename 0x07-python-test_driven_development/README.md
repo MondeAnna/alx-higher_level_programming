@@ -40,5 +40,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 #### High Level Programming Concepts
 
 * _[`Add Two Integers`](0-add_integer.py)_
+* _[`Divide a Matrix`](2-matrix_divided.py)_
 
 <br />
