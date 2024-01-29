@@ -66,5 +66,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`repr Constructable Value`](4-rectangle.py)_
 * _[`Add Destructor`](5-rectangle.py)_
 * _[`Add Class Attribute number_of_instances`](6-rectangle.py)_
+* _[`Add Class Attribute print_symbol`](7-rectangle.py)_
 
 <br />
