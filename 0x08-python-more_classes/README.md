@@ -61,5 +61,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 
 * _[`Define Empty Class`](0-rectangle.py)_
 * _[`Add the Attributes Width and Height`](1-rectangle.py)_
+* _[`Add the Methods Area and Perimeter`](2-rectangle.py)_
 
 <br />
