@@ -64,5 +64,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Add the Methods Area and Perimeter`](2-rectangle.py)_
 * _[`String Representation`](3-rectangle.py)_
 * _[`repr Constructable Value`](4-rectangle.py)_
+* _[`Add Destructor`](5-rectangle.py)_
 
 <br />
