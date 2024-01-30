@@ -54,5 +54,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Object Reference III`](4-answer.txt)_
 * _[`Object Reference IV`](5-answer.txt)_
 * _[`Object Reference V`](6-answer.txt)_
+* _[`Object Reference VI`](7-answer.txt)_
 
 <br />
