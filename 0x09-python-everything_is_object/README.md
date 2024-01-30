@@ -79,5 +79,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Print String Triangle`](100-magic_string.py)_
 * _[`Prevent Dynamic Attributes`](101-locked_class.py)_
 * _[`Object Creation Count I`](103-line1.txt)_
+* _[`Object Creation Count II`](104-line1.txt)_
 
 <br />
