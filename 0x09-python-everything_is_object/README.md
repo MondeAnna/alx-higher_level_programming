@@ -77,5 +77,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Object Reference XVI`](27-answer.txt)_
 * _[`Object Reference XVII`](28-answer.txt)_
 * _[`Print String Triangle`](100-magic_string.py)_
+* _[`Prevent Dynamic Attributes`](101-locked_class.py)_
 
 <br />
