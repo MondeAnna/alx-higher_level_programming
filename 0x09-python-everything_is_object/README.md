@@ -48,5 +48,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 #### High Level Programming Concepts
 
 * _[`Determine Object Type`](0-answer.txt)_
+* _[`Determine Object Address`](1-answer.txt)_
 
 <br />
