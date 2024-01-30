@@ -51,5 +51,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Determine Object Address`](1-answer.txt)_
 * _[`Object Reference I`](2-answer.txt)_
 * _[`Object Reference II`](3-answer.txt)_
+* _[`Object Reference III`](4-answer.txt)_
 
 <br />
