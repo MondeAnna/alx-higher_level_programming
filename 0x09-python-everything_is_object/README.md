@@ -73,5 +73,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Tuple or Not IV`](23-answer.txt)_
 * _[`Object Reference XIII`](24-answer.txt)_
 * _[`Object Reference XIV`](25-answer.txt)_
+* _[`Object Reference XV`](26-answer.txt)_
 
 <br />
