@@ -69,5 +69,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Copy List`](19-copy_list.py)_
 * _[`Tuple or Not I`](20-answer.txt)_
 * _[`Tuple or Not II`](21-answer.txt)_
+* _[`Tuple or Not III`](22-answer.txt)_
 
 <br />
