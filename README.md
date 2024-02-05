@@ -122,5 +122,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[Exceptions](https://www.geeksforgeeks.org/errors-and-exceptions-in-python/)_
 * _[Test Driven Development](https://www.geeksforgeeks.org/test-driven-development-tdd/)_
 * _[Object Orientated Programming](https://www.geeksforgeeks.org/python-oops-concepts/)_
+* _[Inheritance](https://www.geeksforgeeks.org/inheritance-in-python/)_
 
 <br />
