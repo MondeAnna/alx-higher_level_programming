@@ -45,5 +45,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 
 * _[`Attribute and Method List of Object`](0-lookup.py)_
 * _[`Inherit list Class`](1-my_list.py)_
+* _[`Classes and Instances`](2-is_same_class.py)_
 
 <br />

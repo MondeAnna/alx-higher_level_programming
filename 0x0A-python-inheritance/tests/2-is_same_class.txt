@@ -1,0 +1,33 @@
+>>> is_same_class = __import__("2-is_same_class").is_same_class
+>>> 
+>>> 
+>>> 
+>>> 
+>>> is_same_class(1, int)
+True
+>>> 
+>>> 
+>>> is_same_class(1, float)
+False
+>>> 
+>>> 
+>>> is_same_class(1, object)
+False
+>>> 
+>>> 
+>>> is_same_class([], bool)
+False
+>>> 
+>>> 
+>>> is_same_class([], object)
+False
+>>> 
+>>> 
+>>> for obj, cls in [(1, int), ("1", str), ([], list)]:
+...     is_same_class(obj, cls)
+... 
+True
+True
+True
+>>> 
+
