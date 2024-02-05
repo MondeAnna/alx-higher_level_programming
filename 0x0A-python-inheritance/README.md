@@ -51,5 +51,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Empty Class`](5-base_geometry.py)_
 * _[`Continuation of Class 00`](6-base_geometry.py)_
 * _[`Continuation of Class 01`](7-base_geometry.py)_
+* _[`Rectangle with Validated Parameter Values`](8-rectangle.py)_
 
 <br />
