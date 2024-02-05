@@ -1,0 +1,33 @@
+>>> BaseGeometry = __import__("7-base_geometry").BaseGeometry
+>>>
+>>>
+>>> erroneous_types = [
+... None, list, dict, list, tuple,
+... set, hex, bin, oct, bin, float, bool
+... ]
+>>>
+>>>
+>>> bg = BaseGeometry()
+>>>
+>>>
+>>> for type_ in erroneous_types:
+...     bg.integer_validator("name", type_)
+Traceback (most recent call last):
+TypeError: name must be an integer
+>>> 
+>>> 
+>>> bg.integer_validator("name", True)
+Traceback (most recent call last):
+TypeError: name must be an integer
+>>>
+>>>
+>>> bg.integer_validator("age", 0)
+Traceback (most recent call last):
+ValueError: age must be greater than 0
+>>>
+>>>
+>>> bg.integer_validator("distance", -4)
+Traceback (most recent call last):
+ValueError: distance must be greater than 0
+>>>
+>>>

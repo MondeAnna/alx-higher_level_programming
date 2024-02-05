@@ -50,5 +50,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Detect SubClass`](4-inherits_from.py)_
 * _[`Empty Class`](5-base_geometry.py)_
 * _[`Continuation of Class 00`](6-base_geometry.py)_
+* _[`Continuation of Class 01`](7-base_geometry.py)_
 
 <br />
