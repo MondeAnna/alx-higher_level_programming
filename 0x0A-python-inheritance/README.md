@@ -53,5 +53,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Continuation of Class 01`](7-base_geometry.py)_
 * _[`Rectangle with Validated Parameter Values`](8-rectangle.py)_
 * _[`Rectangle with Validated Parameter Values II`](9-rectangle.py)_
+* _[`Square with Validated Parameter Values`](10-square.py)_
 
 <br />
