@@ -44,5 +44,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 #### High Level Programming Concepts
 
 * _[`Attribute and Method List of Object`](0-lookup.py)_
+* _[`Inherit list Class`](1-my_list.py)_
 
 <br />
