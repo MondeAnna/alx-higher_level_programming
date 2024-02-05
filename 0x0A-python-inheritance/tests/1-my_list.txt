@@ -1,0 +1,35 @@
+>>> MyList = __import__("1-my_list").MyList
+>>>
+>>>
+>>> l = MyList()
+>>>
+>>>
+>>> for n in [831, 254, 56, 825, 98, 256, 769, 150, 507, 215]:
+...     l.append(n)
+>>>
+>>>
+>>> l
+[831, 254, 56, 825, 98, 256, 769, 150, 507, 215]
+>>>
+>>>
+>>> print(l)
+[831, 254, 56, 825, 98, 256, 769, 150, 507, 215]
+>>>
+>>>
+>>> l.print_sorted()
+[56, 98, 150, 215, 254, 256, 507, 769, 825, 831]
+>>>
+>>>
+>>> my_list = MyList()
+>>> my_list.append(1)
+>>> my_list.append(4)
+>>> my_list.append(2)
+>>> my_list.append(3)
+>>> my_list.append(5)
+>>> print(my_list)
+[1, 4, 2, 3, 5]
+>>> my_list.print_sorted()
+[1, 2, 3, 4, 5]
+>>> print(my_list)
+[1, 4, 2, 3, 5]
+>>>
