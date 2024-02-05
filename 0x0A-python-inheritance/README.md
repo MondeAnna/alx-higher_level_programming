@@ -56,5 +56,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Square with Validated Parameter Values`](10-square.py)_
 * _[`Square with Validated Parameter Values II`](11-square.py)_
 * _[`Rebel Integer`](100-my_int.py)_
+* _[`Attribute Adder`](101-add_attribute.py)_
 
 <br />

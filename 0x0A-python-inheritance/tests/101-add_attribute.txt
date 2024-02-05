@@ -1,0 +1,17 @@
+>>> add_attribute = __import__("101-add_attribute").add_attribute
+>>> 
+>>> 
+>>> class MyClass():
+...     pass
+... 
+>>> mc = MyClass()
+>>> add_attribute(mc, "name", "John")
+>>> 
+>>> mc.name
+'John'
+>>> 
+>>> a = "My String"
+>>> add_attribute(a, "name", "Bob")
+Traceback (most recent call last):
+TypeError: can't add new attribute
+>>> 
