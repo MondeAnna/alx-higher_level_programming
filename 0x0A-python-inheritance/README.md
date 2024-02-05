@@ -47,5 +47,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Inherit list Class`](1-my_list.py)_
 * _[`Classes and Instances`](2-is_same_class.py)_
 * _[`Classes, SubClasses and Instances`](3-is_kind_of_class.py)_
+* _[`Detect SubClass`](4-inherits_from.py)_
 
 <br />
