@@ -49,5 +49,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 
 * _[`Read Text File`](0-read_file.py)_
 * _[`Write to Text File`](1-write_file.py)_
+* _[`Append to Text File`](2-append_write.py)_
 
 <br />
