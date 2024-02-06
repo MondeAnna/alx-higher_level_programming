@@ -1,0 +1,42 @@
+>>> to_json_string = __import__("3-to_json_string").to_json_string
+>>>
+>>>
+>>> my_list = [1, 2, 3]
+>>> my_list_str = to_json_string(my_list)
+>>>
+>>>
+>>> my_list_str
+'[1, 2, 3]'
+>>>
+>>>
+>>> type(my_list_str)
+<class 'str'>
+>>>
+>>>
+>>> my_dict = { 
+...     'id': 12,
+...     'name': "John",
+...     'places': [ "San Francisco", "Tokyo" ],
+...     'is_active': True,
+...     'info': {
+...         'age': 36,
+...         'average': 3.14
+...     }
+... }
+>>>
+>>>
+>>> my_dict_str = to_json_string(my_dict)
+>>>
+>>>
+>>> my_dict_str
+'{"id": 12, "name": "John", "places": ["San Francisco", "Tokyo"], "is_active": true, "info": {"age": 36, "average": 3.14}}'
+>>>
+>>>
+>>> type(my_dict_str)
+<class 'str'>
+>>>
+>>>
+>>> to_json_string({1, 2, 3})
+Traceback (most recent call last):
+TypeError: Object of type set is not JSON serializable
+>>>
