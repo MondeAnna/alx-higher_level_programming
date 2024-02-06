@@ -58,5 +58,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`JSON Representation of Class`](8-class_to_json.py)_
 * _[`Student 00`](9-student.py)_
 * _[`Pascal's Triangle`](12-pascal_triangle.py)_
+* _[`Insert Line to Text Line`](100-append_after.py)_
 
 <br />
