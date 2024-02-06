@@ -56,5 +56,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Create Object from JSON File`](6-load_from_json_file.py)_
 * _[`Append CLI Args to JSON`](7-add_item.py)_
 * _[`JSON Representation of Class`](8-class_to_json.py)_
+* _[`Student 00`](9-student.py)_
 
 <br />
