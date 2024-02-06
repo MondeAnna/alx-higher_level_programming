@@ -48,5 +48,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 #### High Level Programming Concepts
 
 * _[`Read Text File`](0-read_file.py)_
+* _[`Write to Text File`](1-write_file.py)_
 
 <br />
