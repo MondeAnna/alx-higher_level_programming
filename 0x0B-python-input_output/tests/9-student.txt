@@ -1,0 +1,36 @@
+>>> Student = __import__("9-student").Student
+>>> 
+>>> 
+>>> 
+>>> 
+>>> students = [Student("John", "Doe", 23), Student("Bob", "Dylan", 27)]
+>>> 
+>>> 
+>>> for student in students:
+...     json_student = student.to_json()
+...     print(type(json_student))
+...     print()
+...     print(f"First Name: {json_student['first_name']}")
+...     print(f"First Name Type: {type(json_student['first_name'])}")
+...     print()
+...     print(f"Age: {json_student['age']}")
+...     print(f"Age Type: {type(json_student['age'])}")
+...     print()
+... 
+<class 'dict'>
+<BLANKLINE>
+First Name: John
+First Name Type: <class 'str'>
+<BLANKLINE>
+Age: 23
+Age Type: <class 'int'>
+<BLANKLINE>
+<class 'dict'>
+<BLANKLINE>
+First Name: Bob
+First Name Type: <class 'str'>
+<BLANKLINE>
+Age: 27
+Age Type: <class 'int'>
+<BLANKLINE>
+>>> 
