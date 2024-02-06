@@ -54,5 +54,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Object Representation from JSON`](4-from_json_string.py)_
 * _[`Write JSON Representation to File`](5-save_to_json_file.py)_
 * _[`Create Object from JSON File`](6-load_from_json_file.py)_
+* _[`Append CLI Args to JSON`](7-add_item.py)_
 
 <br />
