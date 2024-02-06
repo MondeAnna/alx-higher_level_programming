@@ -57,5 +57,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Append CLI Args to JSON`](7-add_item.py)_
 * _[`JSON Representation of Class`](8-class_to_json.py)_
 * _[`Student 00`](9-student.py)_
+* _[`Pascal's Triangle`](12-pascal_triangle.py)_
 
 <br />
