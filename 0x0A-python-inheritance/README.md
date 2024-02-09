@@ -40,3 +40,9 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[Learn to Program 10 : Inheritance Magic Methods](https://www.youtube.com/watch?v=d8kCdLCi6Lk)_
 
 <br />
+
+#### High Level Programming Concepts
+
+* _[`Attribute and Method List of Object`](0-lookup.py)_
+
+<br />
