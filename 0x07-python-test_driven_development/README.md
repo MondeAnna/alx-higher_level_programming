@@ -36,3 +36,9 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[Interactive and Non-interactive tests](https://mattermost.com/blog/testing-python-understanding-doctest-and-unittest/)_
 
 <br />
+
+#### High Level Programming Concepts
+
+* _[`Add Two Integers`](0-add_integer.py)_
+
+<br />
