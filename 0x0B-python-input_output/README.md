@@ -36,11 +36,17 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 #### Resources
 
 * _[7.2. Reading and Writing Files](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)_
-* _[8.7. Predefined Clean-up Actions](https://docs.python.org/3/tutorial/errors.html#predefined-clean-up-actions)_
+* _[8.8. Predefined Clean-up Actions](https://docs.python.org/3/tutorial/errors.html#predefined-clean-up-actions)_
 * _[Dive Into Python 3: Chapter 11. Files (until "11.4 Binary Files" (included))](https://histo.ucsf.edu/BMS270/diveintopython3-r802.pdf)_
 * _[JSON encoder and decoder](https://docs.python.org/3/library/json.html)_
 * _[Learn to Program 8 : Reading / Writing Files](https://www.youtube.com/watch?v=EukxMIsNeqU)_
 * _[Automate the Boring Stuff with Python (ch. 8 p 180-183 and ch. 14 p 326-333)](https://automatetheboringstuff.com/)_
 * _[All about py-file I/O](https://techvidvan.com/tutorials/python-file-read-write/)_
+
+<br />
+
+#### High Level Programming Concepts
+
+* _[`Read Text File`](0-read_file.py)_
 
 <br />
