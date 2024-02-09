@@ -56,3 +56,9 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[str vs repr](https://shipit.dev/posts/python-str-vs-repr.html)_
 
 <br />
+
+#### High Level Programming Concepts
+
+* _[`Define Empty Class`](0-rectangle.py)_
+
+<br />
