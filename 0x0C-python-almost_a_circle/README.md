@@ -38,5 +38,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 #### High Level Programming Concepts
 
 * _[`Prep for Testing and PEP 8 Validation`](requirements.txt)_
+* _[`Base Class`](models/base.py)_
 
 <br />
