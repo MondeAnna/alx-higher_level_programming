@@ -5,8 +5,8 @@
 """
 
 
+from unittest.mock import patch
 import unittest
-import io
 
 
 from models.rectangle import Rectangle
@@ -15,11 +15,22 @@ from models.base import Base
 
 class TestRectangle(unittest.TestCase):
 
+    """ Universally applied, cross test methods
+    """
+
     def setUp(self):
         self.__nb_objects = Base._Base__nb_objects
 
     def tearDown(self):
         Base._Base__nb_objects = self.__nb_objects
+
+    @staticmethod
+    def get_mock_print(mock_print):
+        calls = mock_print.call_args_list
+        return " ".join(
+            str(call_.args)
+            for call_ in calls
+        )
 
 
 class TestInitialisation(TestRectangle):
@@ -27,7 +38,7 @@ class TestInitialisation(TestRectangle):
     """ Test Rectangle Initialisation
     """
 
-    def test_init_no_id(self):
+    def test_instance_attr_no_id(self):
         rectangle = Rectangle(
             width=100,
             height=200,
@@ -125,6 +136,21 @@ class TestArea(TestRectangle):
 
         for rectangle, expected in rectangles:
             self.assertEqual(rectangle.area(), expected)
+
+
+class TestDisplay(TestRectangle):
+
+    """ Test Rectangle's Output to stdout
+    """
+
+    @patch("builtins.print")
+    def test_display_rectangle(self, mock_print):
+        Rectangle(4, 6).display()
+
+        print_out = self.get_mock_print(mock_print)
+
+        mock_print.assert_called_with("####")
+        self.assertEqual(mock_print.call_count, 6)
 
 
 if __name__ == "__main__":

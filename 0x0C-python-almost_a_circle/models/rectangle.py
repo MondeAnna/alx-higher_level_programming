@@ -18,9 +18,15 @@ class Rectangle(Base):
         self.y = y
 
     def area(self):
-        """ provides an instances area"""
+        """ provides an instances area """
 
         return self.width * self.height
+
+    def display(self):
+        """ display rectangle using hash characters """
+
+        for row in range(self.height):
+            print("#" * self.width)
 
     @property
     def height(self):
