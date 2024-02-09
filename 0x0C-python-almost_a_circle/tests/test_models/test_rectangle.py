@@ -203,5 +203,33 @@ class TestInstancePrintOut(TestRectangle):
         self.assertEqual(mock_print.call_count, 2)
 
 
+class TestUpdate(TestRectangle):
+
+    """ Test attribute update of Rectangle instance
+    """
+
+    @patch("builtins.print")
+    def test_update(self, mock_print):
+        rectangle = Rectangle(10, 10, 10, 10)
+
+        cases = (
+            ((), "[Rectangle] (1) 10/10 - 10/10"),
+            ((89,), "[Rectangle] (89) 10/10 - 10/10"),
+            ((89, 2), "[Rectangle] (89) 10/10 - 2/10"),
+            ((89, 2, 3), "[Rectangle] (89) 10/10 - 2/3"),
+            ((89, 2, 3, 4), "[Rectangle] (89) 4/10 - 2/3"),
+            ((89, 2, 3, 4, 5), "[Rectangle] (89) 4/5 - 2/3"),
+        )
+
+        for args, expected in cases:
+            mock_print.reset_mock()
+
+            rectangle.update(*args)
+            print(rectangle)
+
+            print_out = self.get_mock_print(mock_print)
+            self.assertTrue(expected in print_out)
+
+
 if __name__ == "__main__":
     unittest.main()

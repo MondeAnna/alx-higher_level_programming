@@ -55,6 +55,29 @@ class Rectangle(Base):
         self.__validate_positive(value, "height")
         self.__height = value
 
+    def update(self, *args):
+        """
+        update object attributes as per internal order
+
+        Parameters
+        ----------
+        args : int
+
+        Internal Order
+        --------------
+        id : int
+        width : int
+        height : int
+        x : int
+        y : int
+        """
+
+        len_ = len(args)
+        attrs = ("id", "width", "height", "x", "y")[:len_] if len_ else ("id",)
+
+        for attr, arg in zip(attrs, args):
+            self.__setattr__(attr, arg)
+
     @property
     def width(self):
         """ provide width of rectangle """
