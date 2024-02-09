@@ -6,6 +6,7 @@
 
 
 import unittest
+import io
 
 
 from models.rectangle import Rectangle
@@ -108,6 +109,22 @@ class TestRectangleValidity(TestRectangle):
             with self.assertRaises(ValueError) as exception:
                 Rectangle(**kwargs)
             self.assertEqual(str(exception.exception), error)
+
+
+class TestArea(TestRectangle):
+
+    """ Test Rectangle Area
+    """
+
+    def test_area(self):
+        rectangles = (
+            (Rectangle(3, 2), 6),
+            (Rectangle(2, 10), 20),
+            (Rectangle(8, 7, 0, 0, 12), 56),
+        )
+
+        for rectangle, expected in rectangles:
+            self.assertEqual(rectangle.area(), expected)
 
 
 if __name__ == "__main__":
