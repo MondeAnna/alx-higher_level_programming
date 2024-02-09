@@ -153,5 +153,28 @@ class TestDisplay(TestRectangle):
         self.assertEqual(mock_print.call_count, 6)
 
 
+class TestInstancePrintOut(TestRectangle):
+
+    """ Test Print out of Rectangle instance
+    """
+
+    @patch("builtins.print")
+    def test_display_str_representation(self, mock_print):
+        rectangle_01 = Rectangle(4, 6, 2, 1, 12)
+        rectangle_02 = Rectangle(5, 5, 1)
+
+        print(rectangle_01)
+        print(rectangle_02)
+
+        expected_01 = "[Rectangle] (12) 2/1 - 4/6"
+        expected_02 = "[Rectangle] (1) 1/0 - 5/5"
+
+        print_out = self.get_mock_print(mock_print)
+
+        self.assertTrue(expected_01 in print_out)
+        self.assertTrue(expected_02 in print_out)
+        self.assertEqual(mock_print.call_count, 2)
+
+
 if __name__ == "__main__":
     unittest.main()

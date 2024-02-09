@@ -155,3 +155,15 @@ class Rectangle(Base):
 
         if value < 0:
             raise ValueError(f"{attr} must be >= 0")
+
+    def __str__(self):
+        """ return implementation of repr for str() """
+
+        return self.__repr__()
+
+    def __repr__(self):
+        """ repr base """
+
+        x_y = f"{self.x}/{self.y}"
+        width_height = f"{self.width}/{self.height}"
+        return f"[Rectangle] ({self.id}) {x_y} - {width_height}"
