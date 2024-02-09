@@ -44,3 +44,9 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[Python tuples: immutable but potentially changing](http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html)_
 
 <br />
+
+#### High Level Programming Concepts
+
+* _[`Determine Object Type`](0-answer.txt)_
+
+<br />
