@@ -34,3 +34,9 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[Python test cheatsheet](https://www.pythonsheets.com/notes/python-tests.html)_
 
 <br />
+
+#### High Level Programming Concepts
+
+* _[`Prep for Testing and PEP 8 Validation`](requirements.txt)_
+
+<br />
