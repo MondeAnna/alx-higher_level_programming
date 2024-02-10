@@ -5,6 +5,7 @@
 """
 
 
+from unittest.mock import mock_open
 from unittest.mock import patch
 import unittest
 
@@ -251,6 +252,23 @@ class TestToDictionary(TestSquare):
         result = Square(10, 2, 1, 9).to_dictionary()
         expected = {"id": 9, "size": 10, "x": 2, "y": 1}
         self.assertEqual(result, expected)
+
+
+class TestSaveToFile(TestSquare):
+
+    """ Write JSON String to file
+    """
+
+    @patch("builtins.open", new_callable=mock_open())
+    def test_list_of_square(self, mock_open):
+        Base.save_to_file([Square(10, 7, 2, 8), Square(2, 4)])
+
+        dict_01 = '{"id": 8, "size": 10, "x": 7, "y": 2}'
+        dict_02 = '{"id": 1, "size": 2, "x": 4, "y": 0}'
+        expected = f"[{dict_01}, {dict_02}]"
+
+        mock_open.assert_called_once_with("Square.json", "w", encoding="utf-8")
+        mock_open().__enter__().write.assert_called_once_with(expected)
 
 
 if __name__ == "__main__":

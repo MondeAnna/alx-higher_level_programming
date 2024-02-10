@@ -5,9 +5,13 @@
 """
 
 
+from unittest.mock import mock_open
+from unittest.mock import patch
 import unittest
 
 
+from models.rectangle import Rectangle
+from models.square import Square
 from models.base import Base
 
 
@@ -60,6 +64,24 @@ class TestToJsonString(TestBase):
         result = Base.to_json_string(list_dict)
         expected = '[{"x": 2, "width": 10, "id": 1, "height": 7, "y": 8}]'
         self.assertEqual(result, expected)
+
+
+class TestSaveToFile(TestBase):
+
+    """ Write JSON String to file
+    """
+
+    @patch("builtins.open", new_callable=mock_open())
+    def test_called_with_none(self, mock_open):
+        Base.save_to_file(None)
+        mock_open.assert_called_once_with("Base.json", "w", encoding="utf-8")
+        mock_open().__enter__().write.assert_called_once_with("[]")
+
+    @patch("builtins.open", new_callable=mock_open())
+    def test_empty_list_of_objects(self, mock_open):
+        Base.save_to_file([])
+        mock_open.assert_called_once_with("Base.json", "w", encoding="utf-8")
+        mock_open().__enter__().write.assert_called_once_with("[]")
 
 
 if __name__ == "__main__":
