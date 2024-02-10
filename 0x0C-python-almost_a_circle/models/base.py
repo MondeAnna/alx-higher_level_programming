@@ -5,6 +5,7 @@
 
 
 import json
+import os
 
 
 class Base:
@@ -24,6 +25,7 @@ class Base:
     @classmethod
     def create(cls, **dictionary):
         """ create a new object with provided dictionary (a.k.a. kwargs)"""
+
         obj = cls(**dictionary)
         obj.update(**dictionary)
         return obj
@@ -33,6 +35,19 @@ class Base:
         if not json_string:
             return []
         return json.loads(json_string)
+
+    @classmethod
+    def load_from_file(cls):
+        """ load json file into list of objects """
+
+        filename = f"{cls.__name__}.json"
+
+        if not os.path.exists(filename):
+            return []
+
+        with open(filename, "r", encoding="utf-8") as file:
+            entries = Base.from_json_string(file.read())
+            return [cls.create(**entry) for entry in entries]
 
     @classmethod
     def save_to_file(cls, list_objs):
