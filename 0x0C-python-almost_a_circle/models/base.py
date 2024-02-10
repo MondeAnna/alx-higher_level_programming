@@ -4,6 +4,8 @@
 """ Base class """
 
 
+from turtle import Screen
+from turtle import Turtle
 import json
 import csv
 import os
@@ -30,6 +32,14 @@ class Base:
         obj = cls(**dictionary)
         obj.update(**dictionary)
         return obj
+
+    @staticmethod
+    def draw(list_rectangles, list_squares):
+        """ draw onto screen the provided shapes """
+
+        Base._Base__setup_screen()
+        for shape in list_rectangles + list_squares:
+            Base._Base__sketch(shape)
 
     @staticmethod
     def from_json_string(json_string):
@@ -124,6 +134,30 @@ class Base:
             obj_01 = list_objs[0]
             filename = obj_01.__class__.__name__
             return f"{filename}.{file_type}"
+
+    @staticmethod
+    def __setup_screen():
+        """ create blank screen """
+
+        screen = Screen()
+        screen.setup(width=955, height=1080, startx=0, starty=0)
+
+    @staticmethod
+    def __sketch(obj):
+        """ sketcher for each shape """
+
+        border = Turtle(visible=False)
+        border.speed("fast")
+        border.penup()
+        border.setposition(obj.x, obj.y)
+        border.pensize(2)
+        border.pendown()
+
+        for _ in range(2):
+            border.forward(obj.width)
+            border.left(90)
+            border.forward(obj.height)
+            border.left(90)
 
     def __del__(self):
         """ decrement object count upon destruction """
