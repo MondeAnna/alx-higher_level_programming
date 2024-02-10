@@ -5,6 +5,7 @@
 """
 
 
+from unittest.mock import mock_open
 from unittest.mock import patch
 import unittest
 
@@ -280,6 +281,24 @@ class TestToDictionary(TestRectangle):
         result = Rectangle(10, 2, 1, 9).to_dictionary()
         expected = {"id": 1, "width": 10, "height": 2, "x": 1, "y": 9}
         self.assertEqual(result, expected)
+
+
+class TestSaveToFile(TestRectangle):
+
+    """ Write JSON String to file
+    """
+
+    @patch("builtins.open", new_callable=mock_open())
+    def test_list_of_rectangles(self, mock_open):
+        Base.save_to_file([Rectangle(10, 7, 2, 8), Rectangle(2, 4)])
+
+        dict_01 = '{"id": 1, "width": 10, "height": 7, "x": 2, "y": 8}'
+        dict_02 = '{"id": 2, "width": 2, "height": 4, "x": 0, "y": 0}'
+        expected = f"[{dict_01}, {dict_02}]"
+        filename = "Rectangle.json"
+
+        mock_open.assert_called_once_with(filename, "w", encoding="utf-8")
+        mock_open().__enter__().write.assert_called_once_with(expected)
 
 
 if __name__ == "__main__":
