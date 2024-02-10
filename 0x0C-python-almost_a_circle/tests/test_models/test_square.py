@@ -179,5 +179,68 @@ class TestInstancePrintOut(TestSquare):
         self.assertEqual(mock_print.call_count, 2)
 
 
+class TestUpdate(TestSquare):
+
+    """ Test attribute update of Square instance
+    """
+
+    @unittest.skip
+    @patch("builtins.print")
+    def test_update_no_args_or_kwargs(self, mock_print):
+        expected = "[Square] (22) 3/2 - 98"
+
+        square = Square(98, 3, 2, 22)
+        print(square)
+
+        print_out = self.get_mock_print(mock_print)
+        self.assertTrue(expected in print_out)
+
+        mock_print.reset_mock()
+        square.update()
+
+        self.assertTrue(expected in print_out)
+
+    @unittest.skip
+    @patch("builtins.print")
+    def test_update_with_args(self, mock_print):
+        cases = (
+            ((89,), "[Square] (89) 10/10 - 10"),
+            ((89, 2), "[Square] (89) 10/10 - 2"),
+            ((89, 2, 3), "[Square] (89) 3/10 - 2"),
+            ((89, 2, 3, 4), "[Square] (89) 3/4 - 2"),
+        )
+
+        square = Square(10, 10, 10, 10)
+
+        for args, expected in cases:
+            square.update(*args)
+            print(square)
+
+            print_out = self.get_mock_print(mock_print)
+            self.assertTrue(expected in print_out)
+
+            mock_print.reset_mock()
+
+    @unittest.skip
+    @patch("builtins.print")
+    def test_update_with_kwargs(self, mock_print):
+        square = Square(10, 10, 10, 10)
+
+        cases = (
+            ({"size": 1}, "[Square] (10) 10/10 - 1"),
+            ({"id": 13, "x": 2}, "[Square] (13) 2/10 - 1"),
+            ({"y": 1, "x": 3, "id": 89}, "[Square] (89) 3/1 - 1"),
+        )
+
+        for kargs, expected in cases:
+            square.update(**kargs)
+            print(square)
+
+            print_out = self.get_mock_print(mock_print)
+            self.assertTrue(expected in print_out)
+
+            mock_print.reset_mock()
+
+
 if __name__ == "__main__":
     unittest.main()
