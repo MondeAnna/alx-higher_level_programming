@@ -33,6 +33,14 @@ class TestRectangle(unittest.TestCase):
             for call_ in calls
         )
 
+    @staticmethod
+    def get_mock_write(mock_open):
+        calls = mock_open().__enter__().write.call_args_list
+        return " ".join(
+            str(call_.args)
+            for call_ in calls
+        )
+
 
 class TestInitialisation(TestRectangle):
 
@@ -285,11 +293,11 @@ class TestToDictionary(TestRectangle):
 
 class TestSaveToFile(TestRectangle):
 
-    """ Write JSON String to file
+    """ Write to file
     """
 
     @patch("builtins.open", new_callable=mock_open())
-    def test_list_of_rectangles(self, mock_open):
+    def test_list_of_rectangles_json(self, mock_open):
         Base.save_to_file([Rectangle(10, 7, 2, 8), Rectangle(2, 4)])
 
         dict_01 = '{"id": 1, "width": 10, "height": 7, "x": 2, "y": 8}'
@@ -299,6 +307,21 @@ class TestSaveToFile(TestRectangle):
 
         mock_open.assert_called_once_with(filename, "w", encoding="utf-8")
         mock_open().__enter__().write.assert_called_once_with(expected)
+
+    @patch("builtins.open", new_callable=mock_open())
+    def test_list_of_rectangles_csv(self, mock_open):
+        Base.save_to_file_csv([Rectangle(10, 7, 2, 8), Rectangle(2, 4)])
+
+        filename = "Rectangle.csv"
+        mock_open.assert_called_once_with(filename, "w", encoding="utf-8")
+        mock_write = self.get_mock_write(mock_open)
+
+        calls = mock_open()
+
+        self.assertEqual(calls.__enter__().write.call_count, 3)
+        self.assertTrue("id,width,height,x,y" in mock_write)
+        self.assertTrue("1,10,7,2,8" in mock_write)
+        self.assertTrue("2,2,4,0,0" in mock_write)
 
 
 class TestCreate(TestRectangle):

@@ -5,6 +5,7 @@
 
 
 import json
+import csv
 import os
 
 
@@ -50,8 +51,29 @@ class Base:
             return [cls.create(**entry) for entry in entries]
 
     @classmethod
+    def load_from_file_csv(cls):
+        """ load csv file into list of objects """
+
+        filename = f"{cls.__name__}.csv"
+
+        if not os.path.exists(filename):
+            return []
+
+        with open(filename, "r", encoding="utf-8") as file:
+            reader = csv.DictReader(file)
+            entries = [
+                {
+                    key: int(value) if value.isdigit else value
+                    for key, value in entry.items()
+                }
+                for entry in reader
+            ]
+            return [cls.create(**entry) for entry in entries]
+
+    @classmethod
     def save_to_file(cls, list_objs):
-        filename = Base.__get_filename(list_objs)
+        filename = Base.__get_filename(list_objs, "json")
+
         dict_objs = [
             obj.to_dictionary() for obj in list_objs
         ] if list_objs else []
@@ -59,6 +81,20 @@ class Base:
 
         with open(filename, "w", encoding="utf-8") as file:
             file.write(str_objs)
+
+    @classmethod
+    def save_to_file_csv(cls, list_objs):
+        filename = Base.__get_filename(list_objs, "csv")
+        fields = Base.__get_fields(list_objs)
+
+        dict_objs = [
+            obj.to_dictionary() for obj in list_objs
+        ] if list_objs else []
+
+        with open(filename, "w", encoding="utf-8") as file:
+            writer = csv.DictWriter(file, fieldnames=fields)
+            writer.writeheader()
+            writer.writerows(dict_objs)
 
     @staticmethod
     def to_json_string(list_dictionaries):
@@ -69,13 +105,25 @@ class Base:
         return json.dumps(list_dictionaries)
 
     @staticmethod
-    def __get_filename(list_objs):
+    def __get_fields(list_objs):
         if not list_objs:
-            return "Base.json"
+            return []
+
+        obj = list_objs[0]
+
+        return {
+            "rectangle": ["id", "width", "height", "x", "y"],
+            "square": ["id", "size", "x", "y"],
+        }.get(obj.__class__.__name__.lower(), [])
+
+    @staticmethod
+    def __get_filename(list_objs, file_type):
+        if not list_objs:
+            return f"Base.{file_type}"
         else:
             obj_01 = list_objs[0]
             filename = obj_01.__class__.__name__
-            return f"{filename}.json"
+            return f"{filename}.{file_type}"
 
     def __del__(self):
         """ decrement object count upon destruction """

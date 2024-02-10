@@ -33,6 +33,14 @@ class TestSquare(unittest.TestCase):
             for call_ in calls
         )
 
+    @staticmethod
+    def get_mock_write(mock_open):
+        calls = mock_open().__enter__().write.call_args_list
+        return " ".join(
+            str(call_.args)
+            for call_ in calls
+        )
+
 
 class TestInitialisation(TestSquare):
 
@@ -256,11 +264,11 @@ class TestToDictionary(TestSquare):
 
 class TestSaveToFile(TestSquare):
 
-    """ Write JSON String to file
+    """ Write to file
     """
 
     @patch("builtins.open", new_callable=mock_open())
-    def test_list_of_square(self, mock_open):
+    def test_list_of_square_json(self, mock_open):
         Base.save_to_file([Square(10, 7, 2, 8), Square(2, 4)])
 
         dict_01 = '{"id": 8, "size": 10, "x": 7, "y": 2}'
@@ -269,6 +277,20 @@ class TestSaveToFile(TestSquare):
 
         mock_open.assert_called_once_with("Square.json", "w", encoding="utf-8")
         mock_open().__enter__().write.assert_called_once_with(expected)
+
+    @patch("builtins.open", new_callable=mock_open())
+    def test_list_of_square_csv(self, mock_open):
+        Base.save_to_file_csv([Square(10, 7, 2, 8), Square(2, 4)])
+
+        mock_open.assert_called_once_with("Square.csv", "w", encoding="utf-8")
+        mock_write = self.get_mock_write(mock_open)
+
+        calls = mock_open()
+
+        self.assertEqual(calls.__enter__().write.call_count, 3)
+        self.assertTrue("id,size,x,y" in mock_write)
+        self.assertTrue("8,10,7,2" in mock_write)
+        self.assertTrue("1,2,4,0" in mock_write)
 
 
 class TestCreate(TestSquare):
