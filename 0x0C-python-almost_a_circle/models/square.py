@@ -33,6 +33,54 @@ class Square(Rectangle):
         self.width = value
         self.height = value
 
+    def update(self, *args, **kwargs):
+        """
+        update object attributes as per internal order,
+        where `args` are provided, `kwargs` are ignored
+
+        Parameters
+        ----------
+        args : int
+        kwargs : int
+
+        Internal Order
+        --------------
+        id : int
+        width : int
+        height : int
+        x : int
+        y : int
+        """
+
+        self.__update_args(*args)
+        if not args:
+            self._Rectangle__update_kwargs(**kwargs)
+
+    def __update_args(self, *args):
+        """
+        update object attributes as per internal order
+
+        Parameters
+        ----------
+        args : int
+
+        Internal Order
+        --------------
+        id : int
+        size : int
+        x : int
+        y : int
+        """
+
+        if not args:
+            return
+
+        len_ = len(args)
+        attrs = ("id", "size", "x", "y")[:len_]
+
+        for index, attr, arg in zip(range(len_), attrs, args):
+            self.__setattr__(attr, arg)
+
     def __str__(self):
         """ return implementation of repr for str() """
 
