@@ -301,5 +301,20 @@ class TestSaveToFile(TestRectangle):
         mock_open().__enter__().write.assert_called_once_with(expected)
 
 
+class TestCreate(TestRectangle):
+
+    """ Test factory method
+    """
+
+    def test_create(self):
+        kwargs = {"width": 1, "height": 2, "x": 1, "y": 0}
+        rectangle = Rectangle.create(**kwargs)
+
+        self.assertEqual(rectangle.width, 1)
+        self.assertEqual(rectangle.height, 2)
+        self.assertEqual(rectangle.x, 1)
+        self.assertEqual(rectangle.y, 0)
+
+
 if __name__ == "__main__":
     unittest.main()
