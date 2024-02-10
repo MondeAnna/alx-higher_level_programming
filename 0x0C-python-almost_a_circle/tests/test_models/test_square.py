@@ -271,5 +271,20 @@ class TestSaveToFile(TestSquare):
         mock_open().__enter__().write.assert_called_once_with(expected)
 
 
+class TestCreate(TestSquare):
+
+    """ Test factory method
+    """
+
+    def test_create(self):
+        kwargs = {"size": 19, "id": 2, "x": 1, "y": 0}
+        square = Square.create(**kwargs)
+
+        self.assertEqual(square.id, 2)
+        self.assertEqual(square.size, 19)
+        self.assertEqual(square.x, 1)
+        self.assertEqual(square.y, 0)
+
+
 if __name__ == "__main__":
     unittest.main()

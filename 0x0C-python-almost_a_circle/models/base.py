@@ -21,6 +21,13 @@ class Base:
             id = Base.__nb_objects
         self.id = id
 
+    @classmethod
+    def create(cls, **dictionary):
+        """ create a new object with provided dictionary (a.k.a. kwargs)"""
+        obj = cls(**dictionary)
+        obj.update(**dictionary)
+        return obj
+
     @staticmethod
     def from_json_string(json_string):
         if not json_string:
