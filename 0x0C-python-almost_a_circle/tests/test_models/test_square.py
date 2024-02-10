@@ -242,5 +242,16 @@ class TestUpdate(TestSquare):
             mock_print.reset_mock()
 
 
+class TestToDictionary(TestSquare):
+
+    """ Test returning attribute-value pairs as a dictionary
+    """
+
+    def test_to_dict(self):
+        result = Square(10, 2, 1, 9).to_dictionary()
+        expected = {"id": 9, "size": 10, "x": 2, "y": 1}
+        self.assertEqual(result, expected)
+
+
 if __name__ == "__main__":
     unittest.main()
