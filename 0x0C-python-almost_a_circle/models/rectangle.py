@@ -55,6 +55,16 @@ class Rectangle(Base):
         self.__validate_positive(value, "height")
         self.__height = value
 
+    def to_dictionary(self):
+        """ provide attribute/value pairs in dictionary """
+        return {
+            "id": self.id,
+            "width": self.width,
+            "height": self.height,
+            "x": self.x,
+            "y": self.y,
+        }
+
     def update(self, *args, **kwargs):
         """
         update object attributes as per internal order,

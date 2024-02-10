@@ -271,5 +271,16 @@ class TestUpdate(TestRectangle):
             mock_print.reset_mock()
 
 
+class TestToDictionary(TestRectangle):
+
+    """ Test returning attribute-value pairs as a dictionary
+    """
+
+    def test_to_dict(self):
+        result = Rectangle(10, 2, 1, 9).to_dictionary()
+        expected = {"id": 1, "width": 10, "height": 2, "x": 1, "y": 9}
+        self.assertEqual(result, expected)
+
+
 if __name__ == "__main__":
     unittest.main()
