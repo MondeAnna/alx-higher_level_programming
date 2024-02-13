@@ -21,6 +21,12 @@ class Base:
             id = Base.__nb_objects
         self.id = id
 
+    @staticmethod
+    def from_json_string(json_string):
+        if not json_string:
+            return []
+        return json.loads(json_string)
+
     @classmethod
     def save_to_file(cls, list_objs):
         filename = Base.__get_filename(list_objs)
@@ -33,6 +39,14 @@ class Base:
             file.write(str_objs)
 
     @staticmethod
+    def to_json_string(list_dictionaries):
+        """ provide json string of object """
+
+        if not list_dictionaries:
+            return "[]"
+        return json.dumps(list_dictionaries)
+
+    @staticmethod
     def __get_filename(list_objs):
         if not list_objs:
             return "Base.json"
@@ -40,14 +54,6 @@ class Base:
             obj_01 = list_objs[0]
             filename = obj_01.__class__.__name__
             return f"{filename}.json"
-
-    @staticmethod
-    def to_json_string(list_dictionaries):
-        """ provide json string of object """
-
-        if not list_dictionaries:
-            return "[]"
-        return json.dumps(list_dictionaries)
 
     def __del__(self):
         """ decrement object count upon destruction """

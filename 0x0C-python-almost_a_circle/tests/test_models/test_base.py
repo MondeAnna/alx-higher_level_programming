@@ -66,6 +66,30 @@ class TestToJsonString(TestBase):
         self.assertEqual(result, expected)
 
 
+class TestFromJsonString(TestBase):
+
+    """ Test Conversion from JSON String
+    """
+
+    def test_converting_none(self):
+        result = Base.from_json_string(None)
+        self.assertEqual(result, [])
+
+    def test_converting_str(self):
+        result = Base.from_json_string("")
+        self.assertEqual(result, [])
+
+    def test_converting_empty_list_of_dictionaries(self):
+        result = Base.from_json_string("[]")
+        self.assertEqual(result, [])
+
+    def test_converting_list_of_dictionaries(self):
+        json_str = '[{"x": 2, "width": 10, "id": 1, "height": 7, "y": 8}]'
+        result = Base.from_json_string(json_str)
+        expected = [{"x": 2, "width": 10, "id": 1, "height": 7, "y": 8}]
+        self.assertEqual(result, expected)
+
+
 class TestSaveToFile(TestBase):
 
     """ Write JSON String to file
