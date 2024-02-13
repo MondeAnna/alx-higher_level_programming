@@ -25,8 +25,17 @@ class Rectangle(Base):
 
     @height.setter
     def height(self, value):
-        """ set height of rectangle """
+        """
+        set height of rectangle
 
+        Parameter
+        ---------
+        value : int
+            value to be assigned as height
+        """
+
+        self.__validate_int(value, "height")
+        self.__validate_positive(value, "height")
         self.__height = value
 
     @property
@@ -37,8 +46,17 @@ class Rectangle(Base):
 
     @width.setter
     def width(self, value):
-        """ set width of rectangle """
+        """
+        set width of rectangle
 
+        Parameter
+        ---------
+        value : int
+            value to be assigned as height
+        """
+
+        self.__validate_int(value, "width")
+        self.__validate_positive(value, "width")
         self.__width = value
 
     @property
@@ -49,8 +67,17 @@ class Rectangle(Base):
 
     @x.setter
     def x(self, value):
-        """ set x of rectangle """
+        """
+        set x of rectangle
 
+        Parameter
+        ---------
+        value : int
+            value to be assigned as height
+        """
+
+        self.__validate_int(value, "x")
+        self.__validate_not_negative(value, "x")
         self.__x = value
 
     @property
@@ -61,6 +88,59 @@ class Rectangle(Base):
 
     @y.setter
     def y(self, value):
-        """ set y of rectangle """
+        """
+        set y of rectangle
 
+        Parameter
+        ---------
+        value : int
+            value to be assigned as height
+        """
+
+        self.__validate_int(value, "y")
+        self.__validate_not_negative(value, "y")
         self.__y = value
+
+    def __validate_int(self, value, attr):
+        """
+        validate value is int
+
+        Parameter
+        ---------
+        value : int
+            value being validated
+        attr : str
+            name of attribute value is to be assigned to
+        """
+
+        if not isinstance(value, int):
+            raise TypeError(f"{attr} must be an integer")
+
+    def __validate_positive(self, value, attr):
+        """
+        validate value is positive
+
+        Parameter
+        ---------
+        value : int
+            value being validated
+        attr : str
+            name of attribute value is to be assigned to
+        """
+
+        if value <= 0:
+            raise ValueError(f"{attr} must be > 0")
+
+    def __validate_not_negative(self, value, attr):
+        """ validate value is not negative
+
+        Parameter
+        ---------
+        value : int
+            value being validated
+        attr : str
+            name of attribute value is to be assigned to
+        """
+
+        if value < 0:
+            raise ValueError(f"{attr} must be >= 0")
