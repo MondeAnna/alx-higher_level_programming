@@ -152,6 +152,33 @@ class TestDisplay(TestRectangle):
         mock_print.assert_called_with("####")
         self.assertEqual(mock_print.call_count, 6)
 
+    @patch("builtins.print")
+    def test_display_rectangle_include_x(self, mock_print):
+        Rectangle(1, 2, 3).display()
+
+        self.assertEqual(mock_print.call_count, 2)
+        mock_print.assert_called_with("   #")
+
+    @patch("builtins.print")
+    def test_display_rectangle_include_y(self, mock_print):
+        Rectangle(10, 5, 0, 3).display()
+
+        print_out = self.get_mock_print(mock_print)
+
+        self.assertTrue("\\n\\n\\n" in print_out)
+        mock_print.assert_called_with("##########")
+        self.assertEqual(mock_print.call_count, 6)
+
+    @patch("builtins.print")
+    def test_display_rectangle_include_x_and_y(self, mock_print):
+        Rectangle(3, 9, 2, 3).display()
+
+        print_out = self.get_mock_print(mock_print)
+
+        self.assertTrue("\\n\\n\\n" in print_out)
+        mock_print.assert_called_with("  ###")
+        self.assertEqual(mock_print.call_count, 10)
+
 
 class TestInstancePrintOut(TestRectangle):
 
