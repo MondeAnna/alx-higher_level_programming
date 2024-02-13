@@ -25,8 +25,14 @@ class Rectangle(Base):
     def display(self):
         """ display rectangle using hash characters """
 
+        if self.y:
+            print("\n" * self.y, end="")
+
+        spaces = " " * self.x
+        hashes = "#" * self.width
+
         for row in range(self.height):
-            print("#" * self.width)
+            print(f"{spaces}{hashes}")
 
     @property
     def height(self):
