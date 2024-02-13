@@ -55,13 +55,15 @@ class Rectangle(Base):
         self.__validate_positive(value, "height")
         self.__height = value
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """
-        update object attributes as per internal order
+        update object attributes as per internal order,
+        where `args` are provided, `kwargs` are ignored
 
         Parameters
         ----------
         args : int
+        kwargs : int
 
         Internal Order
         --------------
@@ -72,11 +74,9 @@ class Rectangle(Base):
         y : int
         """
 
-        len_ = len(args)
-        attrs = ("id", "width", "height", "x", "y")[:len_] if len_ else ("id",)
-
-        for attr, arg in zip(attrs, args):
-            self.__setattr__(attr, arg)
+        self.__update_args(*args)
+        if not args:
+            self.__update_kwargs(**kwargs)
 
     @property
     def width(self):
@@ -140,6 +140,44 @@ class Rectangle(Base):
         self.__validate_int(value, "y")
         self.__validate_not_negative(value, "y")
         self.__y = value
+
+    def __update_args(self, *args):
+        """
+        update object attributes as per internal order
+
+        Parameters
+        ----------
+        args : int
+
+        Internal Order
+        --------------
+        id : int
+        width : int
+        height : int
+        x : int
+        y : int
+        """
+
+        if not args:
+            return
+
+        len_ = len(args)
+        attrs = ("id", "width", "height", "x", "y")[:len_]
+
+        for attr, arg in zip(attrs, args):
+            self.__setattr__(attr, arg)
+
+    def __update_kwargs(self, **kwargs):
+        """
+        update object attributes as pass kwargs
+
+        Parameters
+        ----------
+        kwargs : int
+        """
+
+        for attr, arg in kwargs.items():
+            self.__setattr__(attr, arg)
 
     def __validate_int(self, value, attr):
         """

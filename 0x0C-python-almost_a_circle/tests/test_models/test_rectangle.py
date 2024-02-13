@@ -209,11 +209,23 @@ class TestUpdate(TestRectangle):
     """
 
     @patch("builtins.print")
-    def test_update(self, mock_print):
-        rectangle = Rectangle(10, 10, 10, 10)
+    def test_update_no_args_or_kwargs(self, mock_print):
+        expected = "[Rectangle] (1) 2/22 - 98/3"
 
+        rectangle = Rectangle(98, 3, 2, 22)
+        print(rectangle)
+
+        print_out = self.get_mock_print(mock_print)
+        self.assertTrue(expected in print_out)
+
+        mock_print.reset_mock()
+        rectangle.update()
+
+        self.assertTrue(expected in print_out)
+
+    @patch("builtins.print")
+    def test_update_with_args(self, mock_print):
         cases = (
-            ((), "[Rectangle] (1) 10/10 - 10/10"),
             ((89,), "[Rectangle] (89) 10/10 - 10/10"),
             ((89, 2), "[Rectangle] (89) 10/10 - 2/10"),
             ((89, 2, 3), "[Rectangle] (89) 10/10 - 2/3"),
@@ -221,14 +233,42 @@ class TestUpdate(TestRectangle):
             ((89, 2, 3, 4, 5), "[Rectangle] (89) 4/5 - 2/3"),
         )
 
-        for args, expected in cases:
-            mock_print.reset_mock()
+        rectangle = Rectangle(10, 10, 10, 10)
 
+        for args, expected in cases:
             rectangle.update(*args)
             print(rectangle)
 
             print_out = self.get_mock_print(mock_print)
             self.assertTrue(expected in print_out)
+
+            mock_print.reset_mock()
+
+    @patch("builtins.print")
+    def test_update_with_kwargs(self, mock_print):
+        rectangle = Rectangle(10, 10, 10, 10)
+
+        cases = (
+            ({"height": 1}, "[Rectangle] (1) 10/10 - 10/1"),
+            ({"width": 1, "x": 2}, "[Rectangle] (1) 2/10 - 1/1"),
+            (
+                {"y": 1, "width": 2, "x": 3, "id": 89},
+                "[Rectangle] (89) 3/1 - 2/1",
+            ),
+            (
+                {"x": 1, "height": 2, "y": 3, "width": 4},
+                "[Rectangle] (89) 1/3 - 4/2",
+            ),
+        )
+
+        for kargs, expected in cases:
+            rectangle.update(**kargs)
+            print(rectangle)
+
+            print_out = self.get_mock_print(mock_print)
+            self.assertTrue(expected in print_out)
+
+            mock_print.reset_mock()
 
 
 if __name__ == "__main__":
