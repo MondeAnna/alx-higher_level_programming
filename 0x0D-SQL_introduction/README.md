@@ -135,5 +135,6 @@ $
 * _[`Describe a Table`](5-full_table.sql)_
 * _[`Select All Rows and Columns of Table`](6-list_values.sql)_
 * _[`Insert Into Table`](7-insert_value.sql)_
+* _[`Select Entries With Characteristic`](8-count_89.sql)_
 
 <br />
