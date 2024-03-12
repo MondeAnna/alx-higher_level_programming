@@ -141,5 +141,6 @@ $
 * _[`Conditional Listing`](11-best_score.sql)_
 * _[`Update Table`](12-no_cheating.sql)_
 * _[`Delete Entries`](13-change_class.sql)_
+* _[`Calculate Averge`](14-average.sql)_
 
 <br />
