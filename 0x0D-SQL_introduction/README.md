@@ -129,5 +129,6 @@ $
 
 * _[`Show All Databases`](0-list_databases.sql)_
 * _[`Create Database`](1-create_database_if_missing.sql)_
+* _[`Delete/Drop Database`](2-remove_database.sql)_
 
 <br />
