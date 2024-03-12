@@ -140,5 +140,6 @@ $
 * _[`Ordered Listing`](10-top_score.sql)_
 * _[`Conditional Listing`](11-best_score.sql)_
 * _[`Update Table`](12-no_cheating.sql)_
+* _[`Delete Entries`](13-change_class.sql)_
 
 <br />
