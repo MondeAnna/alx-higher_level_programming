@@ -131,5 +131,6 @@ $
 * _[`Create Database`](1-create_database_if_missing.sql)_
 * _[`Delete/Drop Database`](2-remove_database.sql)_
 * _[`Show All Tables in a Database`](3-list_tables.sql)_
+* _[`Create Table`](4-first_table.sql)_
 
 <br />
