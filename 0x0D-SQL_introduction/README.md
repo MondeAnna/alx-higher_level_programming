@@ -134,5 +134,6 @@ $
 * _[`Create Table`](4-first_table.sql)_
 * _[`Describe a Table`](5-full_table.sql)_
 * _[`Select All Rows and Columns of Table`](6-list_values.sql)_
+* _[`Insert Into Table`](7-insert_value.sql)_
 
 <br />
