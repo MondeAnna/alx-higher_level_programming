@@ -143,5 +143,6 @@ $
 * _[`Delete Entries`](13-change_class.sql)_
 * _[`Calculate Averge`](14-average.sql)_
 * _[`Count Occurances`](15-groups.sql)_
+* _[`Select Where Column is Not Null`](16-no_link.sql)_
 
 <br />
