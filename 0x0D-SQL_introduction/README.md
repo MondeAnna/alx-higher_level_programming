@@ -146,6 +146,6 @@ $
 * _[`Select Where Column is Not Null`](16-no_link.sql)_
 * _[`Alter Character Encoding`](100-move_to_utf8.sql)_
 * _[`Averages`](101-avg_temperatures.sql)_
-* _[``](102-top_city.sql)_
+* _[`Averages II`](102-top_city.sql)_
 
 <br />
