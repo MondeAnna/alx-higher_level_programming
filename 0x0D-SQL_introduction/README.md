@@ -137,5 +137,6 @@ $
 * _[`Insert Into Table`](7-insert_value.sql)_
 * _[`Select Entries With Characteristic`](8-count_89.sql)_
 * _[`Create Table II`](9-full_creation.sql)_
+* _[`Ordered Listing`](10-top_score.sql)_
 
 <br />
