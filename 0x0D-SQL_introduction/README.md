@@ -139,5 +139,6 @@ $
 * _[`Create Table II`](9-full_creation.sql)_
 * _[`Ordered Listing`](10-top_score.sql)_
 * _[`Conditional Listing`](11-best_score.sql)_
+* _[`Update Table`](12-no_cheating.sql)_
 
 <br />
