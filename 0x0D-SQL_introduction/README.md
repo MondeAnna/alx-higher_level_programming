@@ -124,3 +124,9 @@ $
 ```
 
 <br />
+
+#### Queries
+
+* _[`Show All Databases`](0-list_databases.sql)_
+
+<br />
