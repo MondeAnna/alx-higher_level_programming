@@ -133,5 +133,6 @@ $
 * _[`Show All Tables in a Database`](3-list_tables.sql)_
 * _[`Create Table`](4-first_table.sql)_
 * _[`Describe a Table`](5-full_table.sql)_
+* _[`Select All Rows and Columns of Table`](6-list_values.sql)_
 
 <br />
