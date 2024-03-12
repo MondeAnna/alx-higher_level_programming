@@ -142,5 +142,6 @@ $
 * _[`Update Table`](12-no_cheating.sql)_
 * _[`Delete Entries`](13-change_class.sql)_
 * _[`Calculate Averge`](14-average.sql)_
+* _[`Count Occurances`](15-groups.sql)_
 
 <br />
