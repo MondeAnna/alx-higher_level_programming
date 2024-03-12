@@ -147,5 +147,6 @@ $
 * _[`Alter Character Encoding`](100-move_to_utf8.sql)_
 * _[`Averages`](101-avg_temperatures.sql)_
 * _[`Averages II`](102-top_city.sql)_
+* _[`Max`](103-max_state.sql)_
 
 <br />
