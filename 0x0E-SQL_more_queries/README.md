@@ -181,5 +181,6 @@ $
 * _[`Subqueried Joins`](100-not_my_genres.sql)_
 * _[`More Subqueried Joins`](101-not_a_comedy.sql)_
 * _[`List Shows by Rating`](102-rating_shows.sql)_
+* _[`List Genres by Rating`](103-rating_genres.sql)_
 
 <br />
