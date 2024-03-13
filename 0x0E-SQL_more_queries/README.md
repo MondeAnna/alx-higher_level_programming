@@ -168,5 +168,6 @@ $
 * _[`Create Table: Provide Default`](4-never_empty.sql)_
 * _[`Create Table: Ensure is Unique`](5-unique_id.sql)_
 * _[`Create Table: Primary Key`](6-states.sql)_
+* _[`Create Table: Foreign Key`](7-cities.sql)_
 
 <br />
