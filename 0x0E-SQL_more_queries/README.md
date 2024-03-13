@@ -172,5 +172,6 @@ $
 * _[`Subquery`](8-cities_of_california_subquery.sql)_
 * _[`Join`](9-cities_by_state_join.sql)_
 * _[`Conditional Left Join`](10-genre_id_by_show.sql)_
+* _[`Unconditional Left Join`](11-genre_id_all_shows.sql)_
 
 <br />
