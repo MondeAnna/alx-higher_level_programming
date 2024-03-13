@@ -170,5 +170,6 @@ $
 * _[`Create Table: Primary Key`](6-states.sql)_
 * _[`Create Table: Foreign Key`](7-cities.sql)_
 * _[`Subquery`](8-cities_of_california_subquery.sql)_
+* _[`Join`](9-cities_by_state_join.sql)_
 
 <br />
