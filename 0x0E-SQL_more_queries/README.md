@@ -163,5 +163,6 @@ $
 
 * _[`Grants`](0-privileges.sql)_
 * _[`Create Super User`](1-create_user.sql)_
+* _[`Create Read-Only User`](2-create_read_user.sql)_
 
 <br />
