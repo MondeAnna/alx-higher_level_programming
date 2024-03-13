@@ -167,5 +167,6 @@ $
 * _[`Create Table: Ensure Not NULL`](3-force_name.sql)_
 * _[`Create Table: Provide Default`](4-never_empty.sql)_
 * _[`Create Table: Ensure is Unique`](5-unique_id.sql)_
+* _[`Create Table: Primary Key`](6-states.sql)_
 
 <br />
