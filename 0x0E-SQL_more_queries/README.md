@@ -171,5 +171,6 @@ $
 * _[`Create Table: Foreign Key`](7-cities.sql)_
 * _[`Subquery`](8-cities_of_california_subquery.sql)_
 * _[`Join`](9-cities_by_state_join.sql)_
+* _[`Conditional Left Join`](10-genre_id_by_show.sql)_
 
 <br />
