@@ -169,5 +169,6 @@ $
 * _[`Create Table: Ensure is Unique`](5-unique_id.sql)_
 * _[`Create Table: Primary Key`](6-states.sql)_
 * _[`Create Table: Foreign Key`](7-cities.sql)_
+* _[`Subquery`](8-cities_of_california_subquery.sql)_
 
 <br />
