@@ -165,5 +165,6 @@ $
 * _[`Create Super User`](1-create_user.sql)_
 * _[`Create Read-Only User`](2-create_read_user.sql)_
 * _[`Create Table: Ensure Not NULL`](3-force_name.sql)_
+* _[`Create Table: Provide Default`](4-never_empty.sql)_
 
 <br />
