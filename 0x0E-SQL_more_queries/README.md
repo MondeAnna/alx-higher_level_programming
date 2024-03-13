@@ -173,5 +173,6 @@ $
 * _[`Join`](9-cities_by_state_join.sql)_
 * _[`Conditional Left Join`](10-genre_id_by_show.sql)_
 * _[`Unconditional Left Join`](11-genre_id_all_shows.sql)_
+* _[`Conditional Left Join`](12-no_genre.sql)_
 
 <br />
