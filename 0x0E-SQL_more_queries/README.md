@@ -178,5 +178,6 @@ $
 * _[`Multiple Joins`](14-my_genres.sql)_
 * _[`More Multiple Joins`](15-comedy_only.sql)_
 * _[`Even More Multiple Joins`](16-shows_by_genre.sql)_
+* _[`Subqueried Joins`](100-not_my_genres.sql)_
 
 <br />
