@@ -175,5 +175,6 @@ $
 * _[`Unconditional Left Join`](11-genre_id_all_shows.sql)_
 * _[`Conditional Left Join`](12-no_genre.sql)_
 * _[`Count`](13-count_shows_by_genre.sql)_
+* _[`Multiple Joins`](14-my_genres.sql)_
 
 <br />
