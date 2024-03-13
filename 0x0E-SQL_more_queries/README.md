@@ -162,5 +162,6 @@ $
 #### Queries
 
 * _[`Grants`](0-privileges.sql)_
+* _[`Create Super User`](1-create_user.sql)_
 
 <br />
