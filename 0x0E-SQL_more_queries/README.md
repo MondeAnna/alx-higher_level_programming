@@ -158,3 +158,9 @@ $
 ![MySQL-Cheat-Sheet](./img/mysql-joins.png)
 
 <br />
+
+#### Queries
+
+* _[`Grants`](0-privileges.sql)_
+
+<br />
