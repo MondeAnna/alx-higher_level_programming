@@ -107,5 +107,6 @@ sudo npm install semistandard --global
 * _[`Convert CLI Digit to Integer`](5-to_integer.js)_
 * _[`Looped Multi-Line Print Out`](6-multi_languages_loop.js)_
 * _[`Dynamic Multi-Line Print Out`](7-multi_c.js)_
+* _[`Print a Square`](8-square.js)_
 
 <br />
