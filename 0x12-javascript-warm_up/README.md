@@ -113,5 +113,6 @@ sudo npm install semistandard --global
 * _[`Second Biggest Value`](11-second_biggest.js)_
 * _[`Update Const Variable`](12-object.js)_
 * _[`Export Named Function`](13-add.js)_
+* _[`Execute Functions Parameter x times`](101-call_me_moby.js)_
 
 <br />
