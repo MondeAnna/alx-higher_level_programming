@@ -114,5 +114,6 @@ sudo npm install semistandard --global
 * _[`Update Const Variable`](12-object.js)_
 * _[`Export Named Function`](13-add.js)_
 * _[`Execute Functions Parameter x times`](101-call_me_moby.js)_
+* _[`Increment Parametric Integer`](102-add_me_maybe.js)_
 
 <br />
