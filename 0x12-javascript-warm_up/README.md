@@ -101,5 +101,6 @@ sudo npm install semistandard --global
 
 * _[`JavaScript is Amazing`](0-javascript_is_amazing.js)_
 * _[`Multi-Line Print Out`](1-multi_languages.js)_
+* _[`Process CLI Argument Count`](2-arguments.js)_
 
 <br />
