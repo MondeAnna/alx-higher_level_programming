@@ -96,3 +96,9 @@ sudo npm install semistandard --global
 ```
 
 <br />
+
+#### Executable Scripts
+
+* _[`JavaScript is Amazing`](0-javascript_is_amazing.js)_
+
+<br />
