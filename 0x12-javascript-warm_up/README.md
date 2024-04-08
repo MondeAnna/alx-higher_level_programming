@@ -105,5 +105,6 @@ sudo npm install semistandard --global
 * _[`Print First CLI Argument Passed`](3-value_argument.js)_
 * _[`Print CLI Argment Position Values`](4-concat.js)_
 * _[`Convert CLI Digit to Integer`](5-to_integer.js)_
+* _[`Looped Multi-Line Print Out`](6-multi_languages_loop.js)_
 
 <br />
