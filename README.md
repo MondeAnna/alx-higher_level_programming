@@ -134,5 +134,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[Inheritance](https://www.geeksforgeeks.org/inheritance-in-python/)_
 * _[Input/Output](https://www.geeksforgeeks.org/input-and-output-in-python/)_
 * _[MySQL](https://www.geeksforgeeks.org/what-is-mysql/)_
+* _[Introduction to JavaScript](https://www.geeksforgeeks.org/introduction-to-javascript/)_
 
 <br />
