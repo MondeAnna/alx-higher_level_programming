@@ -110,5 +110,6 @@ sudo npm install semistandard --global
 * _[`Print a Square`](8-square.js)_
 * _[`Add Two Operands`](9-add.js)_
 * _[`Factorial`](10-factorial.js)_
+* _[`Second Biggest Value`](11-second_biggest.js)_
 
 <br />
