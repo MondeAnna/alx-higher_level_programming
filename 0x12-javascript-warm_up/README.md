@@ -109,5 +109,6 @@ sudo npm install semistandard --global
 * _[`Dynamic Multi-Line Print Out`](7-multi_c.js)_
 * _[`Print a Square`](8-square.js)_
 * _[`Add Two Operands`](9-add.js)_
+* _[`Factorial`](10-factorial.js)_
 
 <br />
