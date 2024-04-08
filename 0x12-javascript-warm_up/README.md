@@ -111,5 +111,6 @@ sudo npm install semistandard --global
 * _[`Add Two Operands`](9-add.js)_
 * _[`Factorial`](10-factorial.js)_
 * _[`Second Biggest Value`](11-second_biggest.js)_
+* _[`Update Const Variable`](12-object.js)_
 
 <br />
