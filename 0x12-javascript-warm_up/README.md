@@ -108,5 +108,6 @@ sudo npm install semistandard --global
 * _[`Looped Multi-Line Print Out`](6-multi_languages_loop.js)_
 * _[`Dynamic Multi-Line Print Out`](7-multi_c.js)_
 * _[`Print a Square`](8-square.js)_
+* _[`Add Two Operands`](9-add.js)_
 
 <br />
