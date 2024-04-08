@@ -112,5 +112,6 @@ sudo npm install semistandard --global
 * _[`Factorial`](10-factorial.js)_
 * _[`Second Biggest Value`](11-second_biggest.js)_
 * _[`Update Const Variable`](12-object.js)_
+* _[`Export Named Function`](13-add.js)_
 
 <br />
