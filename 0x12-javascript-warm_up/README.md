@@ -100,5 +100,6 @@ sudo npm install semistandard --global
 #### Executable Scripts
 
 * _[`JavaScript is Amazing`](0-javascript_is_amazing.js)_
+* _[`Multi-Line Print Out`](1-multi_languages.js)_
 
 <br />
