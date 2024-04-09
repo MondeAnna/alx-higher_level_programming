@@ -86,3 +86,9 @@ sudo npm install semistandard --global
 ```
 
 <br />
+
+#### Executable Scripts
+
+* _[`Empty Class`](0-rectangle.js)_
+
+<br />
