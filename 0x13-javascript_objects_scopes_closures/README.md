@@ -97,5 +97,6 @@ sudo npm install semistandard --global
 * _[`Inheritance`](5-square.js)_
 * _[`Inheritance II`](6-square.js)_
 * _[`Number of List Occurances`](7-occurrences.js)_
+* _[`Reverse List Elements`](8-esrever.js)_
 
 <br />
