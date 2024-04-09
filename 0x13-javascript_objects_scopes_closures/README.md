@@ -96,5 +96,6 @@ sudo npm install semistandard --global
 * _[`Augment Class Properties`](4-rectangle.js)_
 * _[`Inheritance`](5-square.js)_
 * _[`Inheritance II`](6-square.js)_
+* _[`Number of List Occurances`](7-occurrences.js)_
 
 <br />
