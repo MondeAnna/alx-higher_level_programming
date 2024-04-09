@@ -94,5 +94,6 @@ sudo npm install semistandard --global
 * _[`Init using Natural Numbers`](2-rectangle.js)_
 * _[`Add Print Feature`](3-rectangle.js)_
 * _[`Augment Class Properties`](4-rectangle.js)_
+* _[`Inheritance`](5-square.js)_
 
 <br />
