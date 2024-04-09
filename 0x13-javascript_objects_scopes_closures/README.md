@@ -100,5 +100,6 @@ sudo npm install semistandard --global
 * _[`Reverse List Elements`](8-esrever.js)_
 * _[`Show Console Log and Log Call Count`](9-logme.js)_
 * _[`Convert from Base 10`](10-converter.js)_
+* _[`Map a New List`](100-map.js)_
 
 <br />
