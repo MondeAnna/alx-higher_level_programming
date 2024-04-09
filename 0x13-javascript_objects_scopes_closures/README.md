@@ -102,5 +102,6 @@ sudo npm install semistandard --global
 * _[`Convert from Base 10`](10-converter.js)_
 * _[`Map a New List`](100-map.js)_
 * _[`Map Object Values to Object Keys`](101-sorted.js)_
+* _[`Concatenate Two Files`](102-concat.js)_
 
 <br />
