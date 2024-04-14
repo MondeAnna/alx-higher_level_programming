@@ -101,5 +101,6 @@ Do you see the difference? Cool, right? The biggest difficulty with ORM is: The 
 * _[`Filter State Model Objects with User Arg`](10-model_state_my_get.py)_
 * _[`Insert State`](11-model_state_insert.py)_
 * _[`Update State`](12-model_state_update_id_2.py)_
+* _[`Delete States`](13-model_state_delete_a.py)_
 
 <br />
