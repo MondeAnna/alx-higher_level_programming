@@ -92,5 +92,6 @@ Do you see the difference? Cool, right? The biggest difficulty with ORM is: The 
 * _[`Filter States`](1-filter_states.py)_
 * _[`User Filtered State`](2-my_filter_states.py)_
 * _[`Safely Filtered User Query`](3-my_safe_filter_states.py)_
+* _[`Join Tables`](4-cities_by_state.py)_
 
 <br />
