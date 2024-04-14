@@ -102,5 +102,7 @@ Do you see the difference? Cool, right? The biggest difficulty with ORM is: The 
 * _[`Insert State`](11-model_state_insert.py)_
 * _[`Update State`](12-model_state_update_id_2.py)_
 * _[`Delete States`](13-model_state_delete_a.py)_
+* _[`Create City Model`](model_city.py)_
+* _[`Fetch City by State`](14-model_city_fetch_by_state.py)_
 
 <br />
