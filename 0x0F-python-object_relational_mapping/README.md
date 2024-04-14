@@ -99,5 +99,6 @@ Do you see the difference? Cool, right? The biggest difficulty with ORM is: The 
 * _[`Print First State in Database`](8-model_state_fetch_first.py)_
 * _[`Filter State Model Objects`](9-model_state_filter_a.py)_
 * _[`Filter State Model Objects with User Arg`](10-model_state_my_get.py)_
+* _[`Insert State`](11-model_state_insert.py)_
 
 <br />
