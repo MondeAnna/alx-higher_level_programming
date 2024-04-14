@@ -104,5 +104,7 @@ Do you see the difference? Cool, right? The biggest difficulty with ORM is: The 
 * _[`Delete States`](13-model_state_delete_a.py)_
 * _[`Create City Model`](model_city.py)_
 * _[`Fetch City by State`](14-model_city_fetch_by_state.py)_
+* _[`State Relations`](relationship_state.py)_ and _[`City Relations`](relationship_city.py)_
+* _[`State-to-City Relations`](100-relationship_states_cities.py)_
 
 <br />
