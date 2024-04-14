@@ -95,5 +95,6 @@ Do you see the difference? Cool, right? The biggest difficulty with ORM is: The 
 * _[`Join Tables`](4-cities_by_state.py)_
 * _[`Query Cities in User Provided State`](5-filter_cities.py)_
 * _[`Create State Model`](model_state.py)_
+* _[`List State Objects from Database`](7-model_state_fetch_all.py)_
 
 <br />
