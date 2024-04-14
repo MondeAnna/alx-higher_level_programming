@@ -85,3 +85,9 @@ Do you see the difference? Cool, right? The biggest difficulty with ORM is: The 
 * _[Python Virtual Environments: A primer](https://realpython.com/python-virtual-environments-a-primer/)_
 
 <br />
+
+#### High Level Programming Concepts
+
+* _[`Select States`](0-select_states.py)_
+
+<br />
