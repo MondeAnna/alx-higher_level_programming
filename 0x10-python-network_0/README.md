@@ -47,5 +47,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`HTTP Body Size`](0-body_size.sh)_
 * _[`GET and Display URL's Body`](1-body.sh)_
 * _[`Send DELETE Request`](2-delete.sh)_
+* _[`Display Accepted Methods`](3-methods.sh)_
 
 <br />
