@@ -53,5 +53,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Find Peak`](6-peak.py)_
 * _[`Request Status Code`](100-status_code.sh)_
 * _[`POST JSON File`](101-post_json.sh)_
+* _[`Chase Requests`](102-catch_me.sh)_
 
 <br />
