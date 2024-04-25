@@ -52,5 +52,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Send POST Request`](5-post_params.sh)_
 * _[`Find Peak`](6-peak.py)_
 * _[`Request Status Code`](100-status_code.sh)_
+* _[`POST JSON File`](101-post_json.sh)_
 
 <br />
