@@ -50,5 +50,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Display Accepted Methods`](3-methods.sh)_
 * _[`Send GET Request`](4-header.sh)_
 * _[`Send POST Request`](5-post_params.sh)_
+* _[`Find Peak`](6-peak.py)_
 
 <br />
