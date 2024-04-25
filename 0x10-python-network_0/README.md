@@ -45,5 +45,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 #### High Level Programming Concepts
 
 * _[`HTTP Body Size`](0-body_size.sh)_
+* _[`GET and Display URL's Body`](1-body.sh)_
 
 <br />
