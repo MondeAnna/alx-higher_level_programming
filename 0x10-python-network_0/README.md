@@ -41,3 +41,9 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[HTTP Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)_
 
 <br />
+
+#### High Level Programming Concepts
+
+* _[`HTTP Body Size`](0-body_size.sh)_
+
+<br />
