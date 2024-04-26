@@ -45,5 +45,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Check Error Responses Using Third-Party Library`](7-error_code.py)_
 * _[`Send Parametrised POST`](8-json_api.py)_
 * _[`Display GitHub ID`](10-my_github.py)_
+* _[`Request 10 Latest Commits`](100-github_commits.py)_
 
 <br />
