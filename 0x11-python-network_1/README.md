@@ -37,5 +37,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 
 * _[`Fetch URL`](0-hbtn_status.py)_
 * _[`Fetch URL II`](1-hbtn_header.py)_
+* _[`Send a POST`](2-post_email.py)_
 
 <br />
