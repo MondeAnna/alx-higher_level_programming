@@ -42,5 +42,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Fetch URL Using Third-Party Library`](4-hbtn_status.py)_
 * _[`Fetch URL Using Third-Party Library II`](5-hbtn_header.py)_
 * _[`Send a POST Using Third-Party Library`](6-post_email.py)_
+* _[`Check Error Responses Using Third-Party Library`](7-error_code.py)_
 
 <br />
