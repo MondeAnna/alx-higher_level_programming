@@ -57,5 +57,6 @@ $ export NODE_PATH=/usr/lib/node_modules
 * _[`Store Response to File`](5-request_store.js)_
 * _[`Compute Tasks Completed by User ID`](6-completed_tasks.js)_
 * _[`Prints All Characters in a Film`](100-starwars_characters.js)_
+* _[`Prints All Characters in a Film In Presented Order`](101-starwars_characters.js)_
 
 <br />
