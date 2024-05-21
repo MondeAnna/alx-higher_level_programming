@@ -225,5 +225,6 @@ $
 * _[Introduction to JavaScript](https://www.geeksforgeeks.org/introduction-to-javascript/)_
 * _[Python-SQL ORM](https://www.geeksforgeeks.org/sqlalchemy-introduction/)_
 * _[Networking Fundammentals](https://www.geeksforgeeks.org/basics-computer-networking/)_ and [Python Networking](https://www.geeksforgeeks.org/python-network-programming/)
+* _[Web Scrapping](https://www.geeksforgeeks.org/introduction-to-web-scraping/)_
 
 <br />
