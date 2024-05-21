@@ -53,5 +53,6 @@ $ export NODE_PATH=/usr/lib/node_modules
 * _[`Write Text to File`](1-writeme.js)_
 * _[`GET Status`](2-statuscode.js)_
 * _[`StarWars Movie Titles`](3-starwars_title.js)_
+* _[`Number of Films with Character the ID 18`](4-starwars_count.js)_
 
 <br />
