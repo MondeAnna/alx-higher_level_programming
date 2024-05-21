@@ -52,5 +52,6 @@ $ export NODE_PATH=/usr/lib/node_modules
 * _[`Read In and Print File Contents`](0-readme.js)_
 * _[`Write Text to File`](1-writeme.js)_
 * _[`GET Status`](2-statuscode.js)_
+* _[`StarWars Movie Titles`](3-starwars_title.js)_
 
 <br />
