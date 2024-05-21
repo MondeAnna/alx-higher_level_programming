@@ -46,3 +46,9 @@ $ export NODE_PATH=/usr/lib/node_modules
 * _[Modern JS](https://github.com/mbeaudru/modern-js-cheatsheet)_
 
 <br />
+
+#### High Level Programming Concepts
+
+* _[`Read In and Print File Contents`](0-readme.js)_
+
+<br />
