@@ -54,5 +54,6 @@ $ export NODE_PATH=/usr/lib/node_modules
 * _[`GET Status`](2-statuscode.js)_
 * _[`StarWars Movie Titles`](3-starwars_title.js)_
 * _[`Number of Films with Character the ID 18`](4-starwars_count.js)_
+* _[`Store Response to File`](5-request_store.js)_
 
 <br />
