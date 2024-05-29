@@ -59,5 +59,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 
 * _[`Update Colour of <header>`](0-script.js)_
 * _[`Update Colour of <header> Using JQuery`](1-script.js)_
+* _[`Update Colour of <header> on Click`](2-script.js)_
 
 <br />
