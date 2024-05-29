@@ -58,5 +58,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 #### High Level Programming Concept
 
 * _[`Update Colour of <header>`](0-script.js)_
+* _[`Update Colour of <header> Using JQuery`](1-script.js)_
 
 <br />
