@@ -54,3 +54,9 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[JQuery Ajax](https://learn.jquery.com/ajax/)_
 
 <br />
+
+#### High Level Programming Concept
+
+* _[`Update Colour of <header>`](0-script.js)_
+
+<br />
