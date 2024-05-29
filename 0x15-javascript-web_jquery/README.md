@@ -63,5 +63,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Add Class on Click`](3-script.js)_
 * _[`Toggle Class on Click`](4-script.js)_
 * _[`Add List Items on Click`](5-script.js)_
+* _[`Update Text of <header> on Click`](6-script.js)_
 
 <br />
