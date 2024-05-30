@@ -67,5 +67,6 @@ Studies carried out in the **[ALX Software Engineering Plus](https://www.alxafri
 * _[`Make a Request`](7-script.js)_
 * _[`Request a List`](8-script.js)_
 * _[`Request Greeting`](9-script.js)_
+* _[`Import JS Script From <head>`](100-script.js)_
 
 <br />
